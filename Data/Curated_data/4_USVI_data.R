@@ -1,5 +1,8 @@
-# USVI Data curation
+# Code in support of "Understanding diversity-synchrony-stability relationships in multitrophic communities"
+# in Nature Ecology & Evolution 2024
+# Griffin Srednick and Stephen Swearer
 
+# ====== Part B - Synthesis of Long-term Marine Datasets - Dataset 4, Tropical - US Virgin Islands Territorial Coral Reef Monitoring Program (TCRMP) ======
 
 # Try doing this with IMOS dataset 
 
@@ -10,8 +13,6 @@ library(rfishbase)
 
 # Notes
 # Takes a while to run due to the high volume of sites and species to filter
-
-# NO INVERT COMMUNITY FOR USVI!!! MUST REVIST
 
 # USVI data load
 # fish: https://docs.google.com/spreadsheets/d/1-FvhfMAFs5hNEqmYm0EJd2P23BBYeV7_/edit#gid=1781574307
@@ -33,9 +34,15 @@ names(USVI_fish)
 USVI_herb<-USVI_fish %>% filter(TrophicGroup == "herb",
                                 Metric == "Abundance")
 
-USVI_herb_reduced<-USVI_herb %>% 
+# fix inconsistent naming
+USVI_herb_updated<-USVI_herb %>% mutate(ScientificName = recode(ScientificName, 
+                                                                "scarus vetula" = "Scarus vetula",
+                                                                "sparisoma aurofrenatum" = "Sparisoma aurofrenatum",
+                                                                "sparisoma viride" = "Sparisoma viride"))
+USVI_herb_reduced<-USVI_herb_updated %>% 
   group_by(Location,Year,ScientificName) %>% 
   summarise_if(is.numeric,mean)
+
 
 
 length(unique(USVI_herb_reduced$Year)) # 19 year dataset
@@ -43,7 +50,7 @@ length(unique(USVI_herb_reduced$Year)) # 19 year dataset
 
 USVI_herb_ready<-USVI_herb_reduced %>% 
   ungroup() %>%
-  select(Location,SampleYear,ScientificName,Total) %>%
+  select(Location,Year,ScientificName,Total) %>%
   mutate(mode = "fish_herbivore",
          dataset = "TCRMP") 
 

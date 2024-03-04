@@ -1,11 +1,15 @@
-# Try doing this with MCR dataset --- or even better....do it with a bunch of LTER datasets
+# Code in support of "Understanding diversity-synchrony-stability relationships in multitrophic communities"
+# in Nature Ecology & Evolution 2024
+# Griffin Srednick and Stephen Swearer
+
+# ====== Part B - Synthesis of Long-term Marine Datasets - Dataset 1, Tropical - Moorea Coral Reef LTER ======
 
 library(tidyverse)
 library(codyn)
 library(rfishbase)
 
 
-# MCR data load
+# MCR data load - follow links for data 
 MCR_fish<-read.csv("./Data/MCR/MCR_LTER_Annual_Fish_Survey_20220119.csv") # http://mcrlter.msi.ucsb.edu/cgi-bin/showDataset.cgi?docid=knb-lter-mcr.6
 MCR_algae<-read.csv("./Data/MCR/MCR_LTER_Annual_Survey_Benthic_Cover_20220311.csv") # http://mcrlter.msi.ucsb.edu/cgi-bin/showDataset.cgi?docid=knb-lter-mcr.8
 MCR_invert<-read.csv("./Data/MCR/MCR_LTER_Annual_Survey_Herbiv_Invert_20220315.csv") # http://mcrlter.msi.ucsb.edu/cgi-bin/showDataset.cgi?docid=knb-lter-mcr.7

@@ -1,4 +1,8 @@
-# Try doing this with IMOS dataset 
+# Code in support of "Understanding diversity-synchrony-stability relationships in multitrophic communities"
+# in Nature Ecology & Evolution 2024
+# Griffin Srednick and Stephen Swearer
+
+# ====== Part B - Synthesis of Long-term Marine Datasets - Dataset 3, Temperate - Reef Life Survey (RLS), Australian Temperate Reef Collaboration (ATRC)  ======
 
 library(tidyverse)
 library(codyn)
@@ -21,7 +25,7 @@ IMOS_fish<-read.csv("./Data/IMOS/IMOS_-_National_Reef_Monitoring_Network_Sub-Fac
 IMOS_invert<-read.csv("./Data/IMOS/IMOS_-_National_Reef_Monitoring_Network_Sub-Facility_-_Global_mobile_macroinvertebrate_abundance.csv",
                     skip = 71) # skip metadata rows
 
-# Site list 
+# Site list - these are the sites of interest
 sites_for_filter<-read.csv("./Data/IMOS/IMOS_sites.csv")
 
 # Invert data
@@ -226,8 +230,6 @@ ts_test<-IMOS_nearer_complete %>%
   summarize(year_count = n()) %>%
   filter(year_count > 9)
 
-# will have to mutate a column that says how many years occur with the incremental time period
-
 
 IMOS_complete<-IMOS_nearer_complete %>% 
   mutate(year = year_id,
@@ -256,7 +258,6 @@ spplist_check<-data.frame(species = unique(IMOS_data_nearly$species))
 dup_test<-data.frame(duplicated(IMOS_data_nearly[-6]))
 
 IMOS_data_ready_wide<-IMOS_data_nearly %>%
-  #filter(mode == "invert_herbivore") %>% # ok....so there are like zero fish herbivores
   select(-c(mode,dataset)) %>%
   pivot_wider(names_from = species,
               values_from = cover,
@@ -280,9 +281,9 @@ site_check<-IMOS_data_ready %>% filter(site == "MIR-S3", mode == "algae")
 # yes, there are a number of sites with very high algal richness (> 100 taxa)
 unique(site_check$species)
 
-# final check -- remove all "Unidentified xxx" taxa
-
-IMOS_data_ready<-IMOS_data_ready %>% filter(!str_detect(species,"Unidentified"))
+# final check -- remove all "Unidentified xxx" taxa and remove where no species were present
+IMOS_data_ready<-IMOS_data_ready %>% filter(!str_detect(species,"Unidentified"),
+                                            !str_detect(species,"No species found"))
 
 site_check<-IMOS_data_ready %>% filter(site == "MIR-S3", mode == "algae")
 sites_for_filter<-unique(IMOS_data_ready$site)

@@ -1,9 +1,14 @@
-# Try this with CI database that I have generated
+# Code in support of "Understanding diversity-synchrony-stability relationships in multitrophic communities"
+# in Nature Ecology & Evolution 2024
+# Griffin Srednick and Stephen Swearer
+
+# ====== Part B - Synthesis of Long-term Marine Datasets - Dataset 2, Temperate - Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) ======
+
 
 # packages
 library(tidyverse)
 
-
+# follow links for data 
 # survey data accessible at: https://search.dataone.org/view/doi%3A10.6085%2FAA%2FPISCO_kelpforest.1.6 
 # upload full pisco dataset: this is a wide-format aggregation of "PISCO_kelpforest_fish.1.3.csv", "PISCO_kelpforest_swath.1.2.csv", and "PISCO_kelpforest_upc.1.2.csv"
 pisco_data_full<-read.csv("./Data/PISCO/PISCO_kelpforest_data_aggregated.csv")
@@ -74,12 +79,19 @@ pisco_full_long_reduced<-pisco_full_long %>% filter(species %in% full_spp_list_r
 dim(pisco_full_long_reduced)
 dim(full_mode_list)
 
-# something isnt right here....
-pisco_data_ready<-merge(pisco_full_long_reduced,full_mode_list)
+# remove where no organisms found
+pisco_full_long_nearly<-pisco_full_long_reduced %>% filter(!species == "NO_ORG")
+dim(pisco_full_long_nearly)
+
+# final merge
+pisco_data_ready<-merge(pisco_full_long_nearly,full_mode_list)
 dim(pisco_data_ready)
 
 pisco_data_ready$system <- "temperate"
 pisco_data_ready$dataset <- "PISCO"
+
+
+
 
 
 write.csv(pisco_data_ready,"./Data/Curated_data/2_pisco_data.csv",row.names = F)

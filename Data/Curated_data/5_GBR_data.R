@@ -1,4 +1,10 @@
-# GBR data curate
+# Code in support of "Understanding diversity-synchrony-stability relationships in multitrophic communities"
+# in Nature Ecology & Evolution 2024
+# Griffin Srednick and Stephen Swearer
+
+# ====== Part B - Synthesis of Long-term Marine Datasets - Dataset 5, Tropical - AIMS' Long-Term Great Barrier Reef Monitoring Program  (AIMS GBR) ======
+
+
 
 # Data provided courtesy of AIMS GBR LTMP - Data owner and primary contact: Michael Emslie
 # Genus fish and benthic resolution (data analyzed here) must be sourced from M. Emslie
@@ -7,9 +13,6 @@ load("./Data/GBR/orig.ltmp.RData")
 load("./Data/GBR/all.benthic.22.RData")
 load("./Data/GBR/com_.desc.RData")
 
-#View(orig.ltmp)
-#View(all.benthic.22)
-#View(comp.desc)
 
 
 
@@ -102,6 +105,7 @@ LTMP_data_ready %>%
   group_by(mode) %>%          
   summarise(Unique_Elements = n_distinct(species))
 
+LTMP_species<-data.frame(species = unique(LTMP_data_ready$species))
 
 min(LTMP_data_ready$year)
 max(LTMP_data_ready$year)
