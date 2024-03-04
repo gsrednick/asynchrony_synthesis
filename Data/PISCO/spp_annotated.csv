@@ -1,0 +1,398 @@
+species,sample_type,sample_subtype,classcode,Kingdom,Phylum,Class,Order,Family,Genus,Species,species_definition,taxonomic_source,common_name,mode,keep
+ACOR,FISH,FISH,ACOR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Artedius,corallinus,Artedius corallinus,WoRMS,Coralline Sculpin,,no
+ADAV,FISH,FISH,ADAV,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,davidsonii,Anisotremus davidsonii,WoRMS,Sargo,,no
+AFLA,FISH,FISH,AFLA,Animalia,Chordata,Actinopterygii,Gasterosteiformes,Aulorhynchidae,Aulorhynchus,flavidus,Aulorhynchus flavidus,WoRMS,Tubesnout,,no
+AGLSTR,UPC,COVER,AGLSTR,Animalia,Cnidaria,Hydrozoa,Leptothecata,Aglaopheniidae,Aglaophenia,struthionides,Aglaophenia struthionides,WoRMS,Ostrich-Plume Hydroid,,no
+AHOL,QUAD,FISH,AHOL,Animalia,Chordata,Actinopterygii,Perciformes,Labrisomidae,Alloclinus,holderi,Alloclinus holderi,WoRMS,Island Kelpfish,,no
+AHOL,FISH,FISH,AHOL,Animalia,Chordata,Actinopterygii,Perciformes,Labrisomidae,Alloclinus,holderi,Alloclinus holderi,WoRMS,Island Kelpfish,,no
+AINE,FISH,FISH,AINE,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Agonidae,Anoplagonus,inermis,Anoplagonus inermis,WoRMS,Smooth Alligatorfish,,no
+ALAMAR,SWATH,ALGAE,ALAMAR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Alaria,marginata,Alaria marginata,WoRMS,Alaria,algae,yes
+ANEM,UPC,COVER,ANEM,Animalia,Cnidaria,Anthozoa,Actiniaria,NA,NA,NA,Actiniaria,WoRMS,Anemone,,no
+ANOB,FISH,FISH,ANOB,Animalia,Chordata,Actinopterygii,Perciformes,Sciaenidae,Atractoscion,nobilis,Atractoscion nobilis,WoRMS,White Seabass,,no
+ANTART,SWATH,INVERT,ANTART,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,artemisia,Anthopleura artemisia,WoRMS,Moonglow Anemone,,no
+ANTART,QUAD,INVERT,ANTART,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,artemisia,Anthopleura artemisia,WoRMS,Moonglow Anemone,,no
+ANTELE,SWATH,INVERT,ANTELE,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,elegantissima,Anthopleura elegantissima,WoRMS,Aggregating Anemone,,no
+ANTSOL,SWATH,INVERT,ANTSOL,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,sola,Anthopleura sola,WoRMS,Green Anemone,,no
+ANTSPP,SWATH,INVERT,ANTSPP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,spp,Anthopleura,WoRMS,Unidentified Anemone,,no
+ANTXAN,SWATH,INVERT,ANTXAN,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,xanthogrammica,Anthopleura xanthogrammica,WoRMS,Giant Green Anemone,,no
+AOCE,FISH,FISH,AOCE,Animalia,Chordata,Actinopterygii,Perciformes,Anarhichadidae,Anarrhichthys,ocellatus,Anarrhichthys ocellatus,WoRMS,Wolf Eel,,no
+APFL,FISH,FISH,APFL,Animalia,Chordata,Actinopterygii,Perciformes,Pholidae,Apodichthys,flavidus,Apodichthys flavidus,WoRMS,Penpiont Gunnel,,no
+APLCAL,SWATH,INVERT,APLCAL,Animalia,Mollusca,Gastropoda,Aplysiida,Aplysiidae,Aplysia,californica,Aplysia californica,WoRMS,California Brown Sea Hare,invert_herbivore,yes
+APLVAC,SWATH,INVERT,APLVAC,Animalia,Mollusca,Gastropoda,Aplysiida,Aplysiidae,Aplysia,vaccaria,Aplysia vaccaria,WoRMS,Black Sea Hare,invert_herbivore,yes
+APOCAL,SWATH,INVERT,APOCAL,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,californicus,Apostichopus californicus,WoRMS,California Sea Cucumber,,no
+APOCAL,SIZEFREQ,INVERT,APOCAL,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,californicus,Apostichopus californicus,WoRMS,California Sea Cucumber,,no
+APOPAR,SWATH,INVERT,APOPAR,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,parvimensis,Apostichopus parvimensis,WoRMS,Warty Sea Cucumber,,no
+APOPAR,SIZEFREQ,INVERT,APOPAR,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,parvimensis,Apostichopus parvimensis,WoRMS,Warty Sea Cucumber,,no
+APOSPP,SWATH,INVERT,APOSPP,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,spp,Apostichopus,WoRMS,Sea Cucumber,,no
+ARBSTE,SWATH,INVERT,ARBSTE,Animalia,Echinodermata,Echinoidea,Arbacioida,Arbaciidae,Arbacia,stellata,Arbacia stellata,WoRMS,black urchin,invert_herbivore,yes
+ASTARM,SWATH,INVERT,ASTARM,Animalia,Echinodermata,Asteroidea,Paxillosida,Astropectinidae,Astropecten,armatus,Astropecten armatus,WoRMS,Armored Sand Star,,no
+ASTARM,SIZEFREQ,INVERT,ASTARM,Animalia,Echinodermata,Asteroidea,Paxillosida,Astropectinidae,Astropecten,armatus,Astropecten armatus,WoRMS,Armored Sand Star,,no
+ASTSER,SIZEFREQ,INVERT,ASTSER,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Astrometis,sertulifera,Astrometis sertulifera,WoRMS,Fragile Rainbow Star,,no
+ASTSER,SWATH,INVERT,ASTSER,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Astrometis,sertulifera,Astrometis sertulifera,WoRMS,Fragile Rainbow Star,,no
+ASTSPP,SWATH,INVERT,ASTSPP,Animalia,Echinodermata,Asteroidea,NA,NA,Asteroidea,spp,Asteroidea,WoRMS,Unidentified Seastar,,no
+ATHE,FISH,FISH,ATHE,Animalia,Chordata,Actinopterygii,Atheriniformes,Atherinopsidae,Atherinopsidae,spp,Atherinopsidae,WoRMS,"Grunion, Topsmelt Or Jacksmelt",,no
+ATRIDA,SWATH,INVERT,ATRIDA,Animalia,Mollusca,Gastropoda,Neogastropoda,Mitridae,Atrimitra,idae,Atrimitra idae,WoRMS,Ida's Miter,,no
+ATRIDA,QUAD,INVERT,ATRIDA,Animalia,Mollusca,Gastropoda,Neogastropoda,Mitridae,Atrimitra,idae,Atrimitra idae,WoRMS,Ida's Miter,,no
+AVUL,FISH,FISH,AVUL,Animalia,Chordata,Elasmobranchii,Lamniformes,Alopiidae,Alopias,vulpinus,Alopias vulpinus,WoRMS,Thresher Shark,,no
+BAITBALL,FISH,FISH,BAITBALL,Animalia,Chordata,Actinopterygii,Clupeiformes,NA,NA,NA,Clupeiformes,WoRMS,"Bait, Sardines/Anchovies",,no
+BALNUB,SWATH,INVERT,BALNUB,Animalia,Arthropoda,Hexanauplia,Sessilia,Balanidae,Balanus,nubilus,Balanus nubilus,WoRMS,Barnacle,,no
+BARNAC,UPC,COVER,BARNAC,Animalia,Arthropoda,Hexanauplia,NA,NA,NA,NA,Cirripedia,WoRMS,Barnacle,,no
+BARROC,UPC,COVER,BARROC,NA,NA,NA,NA,NA,NA,NA,Bare Rock,PISCO,Bare Rock,,no
+BARSAN,UPC,COVER,BARSAN,NA,NA,NA,NA,NA,NA,NA,Bare Sand,PISCO,Bare Sand,,no
+BATH,FISH,FISH,BATH,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Bathymasteridae,spp,Bathymasteridae,WoRMS,Ronquils,,no
+BFRE,FISH,FISH,BFRE,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,frenatus,Brachyistius frenatus,WoRMS,Kelp Surfperch,,no
+BLEN,FISH,FISH,BLEN,Animalia,Chordata,Actinopterygii,Perciformes,Blenniidae,Blenniidae,spp,Blenniidae,WoRMS,Blennies,,no
+BOTH,FISH,FISH,BOTH,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,Bothidae,spp,Bothidae,WoRMS,Lefteyed Flounders,,no
+BPOL,FISH,FISH,BPOL,Animalia,Chordata,Actinopterygii,Tetraodontiformes,Balistidae,Balistes,polylepis,Balistes polylepis,WoRMS,Finescale Triggerfish,,no
+BRANCH,UPC,COVER,BRANCH,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Branching Flat Blade),PISCO,Red Algae (Branching Flat Blade),algae,yes
+BRAY,FISH,FISH,BRAY,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,californica,Myliobatis californica,WoRMS,Bat Ray,,no
+BROWN,UPC,COVER,BROWN,Chromista,Ochrophyta,Phaeophyceae,NA,NA,NA,NA,Phaeophyceae,WoRMS,Brown Algae,algae,yes
+BRYO,UPC,COVER,BRYO,Animalia,Bryozoa,NA,NA,NA,NA,NA,Bryozoa,WoRMS,Bryozoan,,no
+BUSHY,UPC,COVER,BUSHY,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Cylindrical Branches),PISCO,Red Algae (Cylindrical Branches),,yes
+BUSHY00,UPC,COVER,BUSHY00,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Alga With Cylindrical Branches. Definition Used In 2000,PISCO,Red Alga With Cylindrical Branches. Definition Used In 2000,,yes
+CAGG,FISH,FISH,CAGG,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Cymatogaster,aggregata,Cymatogaster aggregata,WoRMS,Shiner Surfperch,,no
+CALSPP,SWATH,INVERT,CALSPP,Animalia,Mollusca,Gastropoda,Trochida,Calliostomatidae,Calliostoma,spp,Calliostoma,WoRMS,Top Snail,invert_herbivore,yes
+CANA,FISH,FISH,CANA,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Clinocottus,analis,Clinocottus analis,WoRMS,Wooly Sculpin,,no
+CANSPP,SWATH,INVERT,CANSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Cancridae,NA,NA,Cancridae,WoRMS,Cancer Crab,,no
+CENCOR,SWATH,INVERT,CENCOR,Animalia,Echinodermata,Echinoidea,Diadematoida,Diadematidae,Centrostephanus,coronatus,Centrostephanus coronatus,WoRMS,"Coronado Urchin, Crowned Urchin",invert_herbivore,yes
+CENCOR,QUAD,INVERT,CENCOR,Animalia,Echinodermata,Echinoidea,Diadematoida,Diadematidae,Centrostephanus,coronatus,Centrostephanus coronatus,WoRMS,"Coronado Urchin, Crowned Urchin",invert_herbivore,yes
+CERFOL,QUAD,INVERT,CERFOL,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ceratostoma,foliatum,Ceratostoma foliatum,WoRMS,Leafy Hornmouth,,no
+CERFOL,SWATH,INVERT,CERFOL,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ceratostoma,foliatum,Ceratostoma foliatum,WoRMS,Leafy Hornmouth,,no
+CERNUT,QUAD,INVERT,CERNUT,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ceratostoma,nuttalli,Ceratostoma nuttalli,WoRMS,Nuttall's hornmouth,,no
+CERNUT,SWATH,INVERT,CERNUT,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ceratostoma,nuttalli,Ceratostoma nuttalli,WoRMS,Nuttall's hornmouth,,no
+CGIG,FISH,FISH,CGIG,Animalia,Chordata,Actinopterygii,Perciformes,Cryptacanthodidae,Cryptacanthodes,giganteus,Cryptacanthodes giganteus,WoRMS,Giant Wrymouth,,no
+CITH,FISH,FISH,CITH,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys,spp,Citharichthys,WoRMS,Sanddabs,,no
+CLAM,UPC,COVER,CLAM,Animalia,Mollusca,Bivalvia,NA,NA,NA,NA,Clam,PISCO,Clam,,no
+CLIN,FISH,FISH,CLIN,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Clinidae,spp,Clinidae,WoRMS,Kelpfishes And Fringeheads,,no
+CLUP,FISH,FISH,CLUP,Animalia,Chordata,Actinopterygii,Clupeiformes,NA,NA,NA,Clupeiformes,WoRMS,Sardines And Anchovies,,no
+CNUG,FISH,FISH,CNUG,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Chirolophis,nugator,Chirolophis nugator,WoRMS,Mosshead Warbonnet,,no
+COMTUN,UPC,COVER,COMTUN,Animalia,Chordata,Ascidiacea,NA,NA,NA,NA,"Tunicate -Colonial,Compund,Social",PISCO,"Tunicate -Colonial,Compund,Social",,no
+CORCAL,UPC,COVER,CORCAL,Animalia,Cnidaria,Anthozoa,Corallimorpharia,Corallimorphidae,Corynactis,californica,Corynactis californica,WoRMS,Strawberry Anemone,,no
+COSCOS,SWATH,ALGAE,COSCOS,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Costariaceae,Costaria,costata,Costaria costata,WoRMS,Costaria,algae,yes
+COTT,FISH,FISH,COTT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Cottidae,spp,Cottidae,WoRMS,Sculpins,,no
+COTT,QUAD,FISH,COTT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Cottidae,spp,Cottidae,WoRMS,Sculpins,,no
+CPRI,FISH,FISH,CPRI,Animalia,Chordata,Actinopterygii,Perciformes,Malacanthidae,Caulolatilus,princeps,Caulolatilus princeps,WoRMS,Ocean Whitefish,,no
+CPUG,FISH,FISH,CPUG,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Chitonotus,pugetensis,Chitonotus pugetensis,WoRMS,Roughback Sculpin,,no
+CPUN,FISH,FISH,CPUN,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Chromis,punctipinnis,Chromis punctipinnis,WoRMS,Blacksmith,,no
+CRAARB,SWATH,INVERT,CRAARB,Animalia,Porifera,Demospongiae,Tetractinellida,Tetillidae,Craniella,arb,Craniella arb,WoRMS,Grey Tennis Ball Sponge,,no
+CRAGIG,SWATH,INVERT,CRAGIG,Animalia,Mollusca,Bivalvia,Pectinida,Pectinidae,Crassadoma,gigantea,Crassadoma gigantea,WoRMS,Rock Scallop,,no
+CRIALB,SWATH,INVERT,CRIALB,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Cribrinopsis,albopunctata,Cribrinopsis albopunctata,WoRMS,White-Spotted Rose Anemone,,no
+CROCAL,SWATH,INVERT,CROCAL,Animalia,Mollusca,Gastropoda,Littorinimorpha,Bursidae,Crossata,californica,Crossata californica,WoRMS,California Frog Shell,,no
+CRUCOR,UPC,COVER,CRUCOR,Plantae,Rhodophyta,Florideophyceae,Corallinales,NA,NA,NA,Coralline Algae -Crustose,PISCO,Coralline Algae -Crustose,algae,yes
+CRYSIT,SWATH,INVERT,CRYSIT,Animalia,Arthropoda,Malacostraca,Decapoda,Lithodidae,Cryptolithodes,sitchensis,Cryptolithodes sitchensis,WoRMS,Umbrella Crab,invert_herbivore,yes
+CRYSTE,SWATH,INVERT,CRYSTE,Animalia,Mollusca,Polyplacophora,Chitonida,Acanthochitonidae,Cryptochiton,stelleri,Cryptochiton stelleri,WoRMS,Gumboot Chiton,invert_herbivore,yes
+CSAT,FISH,FISH,CSAT,Animalia,Chordata,Actinopterygii,Perciformes,Sciaenidae,Cheilotrema,saturnum,Cheilotrema saturnum,WoRMS,Black Croaker,,no
+CSOR,FISH,FISH,CSOR,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys,sordidus,Citharichthys sordidus,WoRMS,Pacific Sanddab,,no
+CSTI,FISH,FISH,CSTI,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys,stigmaeus,Citharichthys stigmaeus,WoRMS,Speckled Sanddab,,no
+CUCMIN,SWATH,INVERT,CUCMIN,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,miniata,Cucumaria miniata,WoRMS,Orange Sea Cucumber,,no
+CUCMIN,QUAD,INVERT,CUCMIN,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,miniata,Cucumaria miniata,WoRMS,Orange Sea Cucumber,,no
+CUCSPP,SWATH,INVERT,CUCSPP,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,spp,Cucumaria,WoRMS,"Sea Cucumber (embedded, non-mobile)",,no
+CUCSPP,QUAD,INVERT,CUCSPP,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,spp,Cucumaria,WoRMS,"Sea Cucumber (embedded, non-mobile)",,no
+CUCSPP,UPC,COVER,CUCSPP,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,spp,Cucumaria,WoRMS,"Sea Cucumber (embedded, non-mobile)",,no
+CUPCOR,UPC,COVER,CUPCOR,Animalia,Cnidaria,Anthozoa,Scleractinia,NA,NA,NA,Cup Coral,PISCO,Cup Coral,,no
+CVEN,FISH,FISH,CVEN,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Scyliorhinidae,Cephaloscyllium,ventriosum,Cephaloscyllium ventriosum,WoRMS,Swell Shark,,no
+CVIO,FISH,FISH,CVIO,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Cebidichthys,violaceus,Cebidichthys violaceus,WoRMS,Monkeyface Eel,,no
+DEADHOLD,UPC,COVER,DEADHOLD,NA,NA,NA,NA,NA,NA,NA,Macrosystis Holdfast (Dead),PISCO,Macrosystis Holdfast (Dead),,no
+DERIMB,SWATH,INVERT,DERIMB,Animalia,Echinodermata,Asteroidea,Valvatida,Asteropseidae,Dermasterias,imbricata,Dermasterias imbricata,WoRMS,Leather Star,,no
+DERIMB,SIZEFREQ,INVERT,DERIMB,Animalia,Echinodermata,Asteroidea,Valvatida,Asteropseidae,Dermasterias,imbricata,Dermasterias imbricata,WoRMS,Leather Star,,no
+DESSPP,UPC,COVER,DESSPP,Chromista,Ochrophyta,Phaeophyceae,Desmarestiales,Desmarestiaceae,Desmarestia,spp,Desmarestia,WoRMS,Acidic Seaweed,algae,yes
+DIACAL,UPC,COVER,DIACAL,Animalia,Bryozoa,Stenolaemata,Cyclostomatida,NA,Diaperoforma,californica,Diaperoforma californica,WoRMS,Southern Staghorn Bryozoan,,no
+DICSPP,UPC,COVER,DICSPP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Costariaceae,Dictyoneurum,californicum/reticulatum,Dictyoneurum californicum/reticulatum,WoRMS,Dictyoneurum,algae,yes
+DICSPP,SWATH,ALGAE,DICSPP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Costariaceae,Dictyoneurum,californicum/reticulatum,Dictyoneurum californicum/reticulatum,WoRMS,Dictyoneurum,algae,yes
+DICTYOTALES,UPC,COVER,DICTYOTALES,Chromista,Ochrophyta,Phaeophyceae,Dictyotales,NA,Dictyotales,spp,Dictyotales,WoRMS,Dictyotales,algae,yes
+DIOASP,SWATH,INVERT,DIOASP,Animalia,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Diodora,aspera,Diodora aspera,WoRMS,Rough Keyhole Limpet,invert_herbivore,yes
+DIOCHA,UPC,COVER,DIOCHA,Animalia,Annelida,Polychaeta,"Eunicida, no order available for Chaetopterus","Onuphidae, Chaetopteridae",Diopatra/Chaetopterus,spp,Diopatra/Chaetopterus spp,WoRMS,Ornate Tube Worm,,no
+DODFEW,UPC,COVER,DODFEW,Animalia,Annelida,Polychaeta,Terebellida,Cirratulidae,Dodecaceria,fewkesi,Dodecaceria fewkesi,WoRMS,Dodecaceria,,no
+EBIS,FISH,FISH,EBIS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Enophrys,bison,Enophrys bison,WoRMS,Buffalo Sculpin,,no
+EGRMEN,SWATH,ALGAE,EGRMEN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Egregia,menziesii,Egregia menziesii,WoRMS,Egregia,algae,yes
+EGRMEN,UPC,COVER,EGRMEN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Egregia,menziesii,Egregia menziesii,WoRMS,Egregia,algae,yes
+EISARBAD,SWATH,ALGAE,EISARBAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Eisenia,arborea,Eisenia arborea,WoRMS,Southern Sea Palm,algae,yes
+EISARBADSUB,SWATH,ALGAE,EISARBADSUB,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Eisenia,arborea,Eisenia arborea,WoRMS,Southern Sea Palm,algae,yes
+EJAC,FISH,FISH,EJAC,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,jacksoni,Embiotoca jacksoni,WoRMS,Black Surfperch,,no
+ELAT,FISH,FISH,ELAT,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,lateralis,Embiotoca lateralis,WoRMS,Striped Surfperch,,no
+EMBI,FISH,FISH,EMBI,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotocidae,spp,Embiotocidae,WoRMS,Surfperches,,no
+EMOR,FISH,FISH,EMOR,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,mordax,Engraulis mordax,WoRMS,Northern Anchovy,,no
+ENCRED,UPC,COVER,ENCRED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae -Encrusting,PISCO,Red Algae -Encrusting,algae,yes
+ERECOR,UPC,COVER,ERECOR,Plantae,Rhodophyta,Florideophyceae,Corallinales,NA,NA,NA,Coralline Algae -Erect/Articulated,PISCO,Coralline Algae -Erect/Articulated,algae,yes
+ERECTRED,UPC,COVER,ERECTRED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Fleshy Algae,PISCO,Red Fleshy Algae,algae,yes
+EUGRUB,SWATH,INVERT,EUGRUB,Animalia,Cnidaria,Anthozoa,Alcyonacea,Gorgoniidae,Eugorgia,rubens,Eugorgia rubens,WoRMS,Purple Gorgonian,,no
+EVATRO,SWATH,INVERT,EVATRO,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Evasterias,troschelii,Evasterias troschelii,WoRMS,Mottled Star,,no
+EWAL,FISH,FISH,EWAL,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Ernogrammus,walkeri,Ernogrammus walkeri,WoRMS,Masked Prickleback,,no
+GBY,FISH,FISH,GBY,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,chrysomelas/carnatus young of year,Sebastes chrysomelas/carnatus,WoRMS,Gopher and Black And Yellow Rockfish Young of Year,,no
+GGAL,FISH,FISH,GGAL,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Galeorhinus,galeus,Galeorhinus galeus,WoRMS,Tope Shark,,no
+GIBB,FISH,FISH,GIBB,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,spp,Gibbonsia,WoRMS,Kelpfish,,no
+GIBB,QUAD,FISH,GIBB,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,spp,Gibbonsia,WoRMS,Kelpfish,,no
+GMAE,FISH,FISH,GMAE,Animalia,Chordata,Actinopterygii,Gobiesociformes,Gobiesocidae,Gobiesox,maeandricus,Gobiesox maeandricus,WoRMS,Northern Clingfish,,no
+GMOR,FISH,FISH,GMOR,Animalia,Chordata,Actinopterygii,Anguilliformes,Muraenidae,Gymnothorax,mordax,Gymnothorax mordax,WoRMS,California Moray,,no
+GNIG,FISH,FISH,GNIG,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Girella,nigricans,Girella nigricans,WoRMS,Opaleye,fish_herbivore,yes
+GOBI,FISH,FISH,GOBI,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Gobiidae,spp,Gobiidae,WoRMS,Gobies,,no
+GORGAD,UPC,COVER,GORGAD,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Gorgonian Adult,PISCO,Gorgonian Adult,,no
+GORGAD,QUAD,INVERT,GORGAD,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Gorgonian Adult,PISCO,Gorgonian Adult,,no
+GORGAD,SWATH,INVERT,GORGAD,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Gorgonian Adult,PISCO,Gorgonian Adult,,no
+GREEN,UPC,COVER,GREEN,Plantae,Chlorophyta,NA,NA,NA,NA,NA,Chlorophyta,WoRMS,Green Algae,algae,yes
+HALCOR,QUAD,INVERT,HALCOR,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,corrugata,Haliotis corrugata,WoRMS,Pink Abalone,invert_herbivore,yes
+HALCOR,SWATH,INVERT,HALCOR,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,corrugata,Haliotis corrugata,WoRMS,Pink Abalone,invert_herbivore,yes
+HALCOR,SIZEFREQ,INVERT,HALCOR,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,corrugata,Haliotis corrugata,WoRMS,Pink Abalone,invert_herbivore,yes
+HALCRA,SWATH,INVERT,HALCRA,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,cracherodii,Haliotis cracherodii,WoRMS,Black Abalone,invert_herbivore,yes
+HALCRA,SIZEFREQ,INVERT,HALCRA,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,cracherodii,Haliotis cracherodii,WoRMS,Black Abalone,invert_herbivore,yes
+HALFUL,SIZEFREQ,INVERT,HALFUL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,fulgens,Haliotis fulgens,WoRMS,Green Abalone,invert_herbivore,yes
+HALFUL,SWATH,INVERT,HALFUL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,fulgens,Haliotis fulgens,WoRMS,Green Abalone,invert_herbivore,yes
+HALKAM,SIZEFREQ,INVERT,HALKAM,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,kamtschatkana,Haliotis kamtschatkana,WoRMS,Pinto Abalone,invert_herbivore,yes
+HALKAM,SWATH,INVERT,HALKAM,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,kamtschatkana,Haliotis kamtschatkana,WoRMS,Pinto Abalone,invert_herbivore,yes
+HALRUF,SWATH,INVERT,HALRUF,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,rufescens,Haliotis rufescens,WoRMS,Red Abalone,invert_herbivore,yes
+HALRUF,SIZEFREQ,INVERT,HALRUF,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,rufescens,Haliotis rufescens,WoRMS,Red Abalone,invert_herbivore,yes
+HALSPP,SIZEFREQ,INVERT,HALSPP,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,spp,Haliotis,WoRMS,Abalone Spp.,invert_herbivore,yes
+HALSPP,SWATH,INVERT,HALSPP,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,spp,Haliotis,WoRMS,Abalone Spp.,invert_herbivore,yes
+HALWAL,SWATH,INVERT,HALWAL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,walallensis,Haliotis walallensis,WoRMS,Flat Abalone,invert_herbivore,yes
+HALWAL,SIZEFREQ,INVERT,HALWAL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,walallensis,Haliotis walallensis,WoRMS,Flat Abalone,invert_herbivore,yes
+HANA,FISH,FISH,HANA,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,anale,Hyperprosopon anale,WoRMS,Spotfin Surfperch,,no
+HARG,FISH,FISH,HARG,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,argenteum,Hyperprosopon argenteum,WoRMS,Walleye Surfperch,,no
+HAZU,FISH,FISH,HAZU,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Hermosilla,azurea,Hermosilla azurea,WoRMS,Zebra-Perch Sea Chub,,no
+HCAL,FISH,FISH,HCAL,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Haemulon,californiensis,Haemulon californiensis,WoRMS,Californian Salema,,no
+HCAR,FISH,FISH,HCAR,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,caryi,Hypsurus caryi,WoRMS,Rainbow Surfperch,,no
+HDEC,FISH,FISH,HDEC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,decagrammus,Hexagrammos decagrammus,WoRMS,Kelp Greenling,,no
+HELL,FISH,FISH,HELL,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,ellipticum,Hyperprosopon ellipticum,WoRMS,Silver Surfperch,,no
+HENLEV,SWATH,INVERT,HENLEV,Animalia,Echinodermata,Asteroidea,Spinulosida,Echinasteridae,Henricia,leviuscula,Henricia leviuscula,WoRMS,Blood Star,,no
+HENLEV,SIZEFREQ,INVERT,HENLEV,Animalia,Echinodermata,Asteroidea,Spinulosida,Echinasteridae,Henricia,leviuscula,Henricia leviuscula,WoRMS,Blood Star,,no
+HERMSPP,QUAD,INVERT,HERMSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,NA,NA,Paguridae,WoRMS,Hermit Crabs,,no
+HERMSPP,SWATH,INVERT,HERMSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,NA,NA,Paguridae,WoRMS,Hermit Crabs,,no
+HETPAC,UPC,COVER,HETPAC,Animalia,Bryozoa,Stenolaemata,Cyclostomatida,Heteroporidae,Heteropora,pacifica,Heteropora pacifica,WoRMS,Northern Staghorn Bryozoan,,no
+HEXA,FISH,FISH,HEXA,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,spp,Hexagrammos,WoRMS,Unidentified Hexagrammos,,no
+HFRA,FISH,FISH,HFRA,Animalia,Chordata,Elasmobranchii,Heterodontiformes,Heterodontidae,Heterodontus,francisci,Heterodontus francisci,WoRMS,Horn Shark,,no
+HGRI,FISH,FISH,HGRI,Animalia,Chordata,Elasmobranchii,Hexanchiformes,Hexanchidae,Hexanchus,griseus,Hexanchus griseus,WoRMS,Sixgill shark,,no
+HHEM,FISH,FISH,HHEM,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Hemilepidotus,hemilepidotus,Hemilepidotus hemilepidotus,WoRMS,Red Irish Lord,,no
+HLAG,FISH,FISH,HLAG,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,lagocephalus,Hexagrammos lagocephalus,WoRMS,Rock Greenling,,no
+HROS,FISH,FISH,HROS,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,rostratus,Heterostichus rostratus,WoRMS,Giant Kelpfish,,no
+HROS,QUAD,FISH,HROS,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,rostratus,Heterostichus rostratus,WoRMS,Giant Kelpfish,,no
+HRUB,FISH,FISH,HRUB,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,rubicundus,Hypsypops rubicundus,WoRMS,Garibaldi,fish_herbivore,yes
+HSEM,FISH,FISH,HSEM,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,semicinctus,Halichoeres semicinctus,WoRMS,Rock Wrasse,,no
+HSTE,FISH,FISH,HSTE,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,stelleri,Hexagrammos stelleri,WoRMS,Whitespotted Greenling,,no
+HYDROID,UPC,COVER,HYDROID,Animalia,Cnidaria,Hydrozoa,NA,NA,NA,NA,Hydroid,WoRMS,Hydroid,,no
+JZON,FISH,FISH,JZON,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Jordania,zonope,Jordania zonope,WoRMS,Longfin Sculpin,,no
+KELKEL,QUAD,INVERT,KELKEL,Animalia,Mollusca,Gastropoda,Neogastropoda,Buccinidae,Kelletia,kelletii,Kelletia kelletii,WoRMS,Kellet's Whelk,,no
+KELKEL,SIZEFREQ,INVERT,KELKEL,Animalia,Mollusca,Gastropoda,Neogastropoda,Buccinidae,Kelletia,kelletii,Kelletia kelletii,WoRMS,Kellet's Whelk,,no
+KELKEL,SWATH,INVERT,KELKEL,Animalia,Mollusca,Gastropoda,Neogastropoda,Buccinidae,Kelletia,kelletii,Kelletia kelletii,WoRMS,Kellet's Whelk,,no
+KGB,FISH,FISH,KGB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"atrovirens,carnatus,chrysomelas,caurinus",Sebastes atrovirens/carnatus/chrysomelas/caurinus,WoRMS,"Kelp, Gopher, Black And Yellow, and Copper Rockfish Young of Year",,no
+KSEI,FISH,FISH,KSEI,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Kasatkia,seigeli,Kasatkia seigeli,WoRMS,Six-Spot Prickleback,,no
+LACY,UPC,COVER,LACY,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Lacy Branching),PISCO,Red Algae (Lacy Branching),algae,yes
+LAMFAR,SWATH,ALGAE,LAMFAR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,farlowii,Laminaria farlowii,WoRMS,Laminaria,algae,yes
+LAMHOLD,UPC,COVER,LAMHOLD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,NA,NA,NA,Laminariales Holdfast (Alive),PISCO,Laminariales Holdfast (Alive),,no
+LAMSETAD,SWATH,ALGAE,LAMSETAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,setchellii,Laminaria setchellii,WoRMS,Laminaria,algae,yes
+LAMSETADSUB,SWATH,ALGAE,LAMSETADSUB,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,setchellii,Laminaria setchellii,WoRMS,Laminaria,algae,yes
+LAMSPP,SWATH,ALGAE,LAMSPP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,spp,Laminaria,WoRMS,Laminaria,algae,yes
+LAMSTUMP,SWATH,ALGAE,LAMSTUMP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,NA,Laminariales,spp,Laminariales,WoRMS,Laminareales stump,,no
+LCON,FISH,FISH,LCON,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lethops,connectens,Lethops connectens,WoRMS,"Kelp Goby, Halfblind Goby",,no
+LDAL,FISH,FISH,LDAL,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lythrypnus,dalli,Lythrypnus dalli,WoRMS,Bluebanded Goby,,no
+LDAL,QUAD,FISH,LDAL,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lythrypnus,dalli,Lythrypnus dalli,WoRMS,Bluebanded Goby,,no
+LEAFY,UPC,COVER,LEAFY,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Leaf-Like),PISCO,Red Algae (Leaf-Like),algae,yes
+LEPCHI,SWATH,INVERT,LEPCHI,Animalia,Cnidaria,Anthozoa,Alcyonacea,Gorgoniidae,Leptogorgia,chilensis,Leptogorgia chilensis,WoRMS,Red Gorgonian,,no
+LEPHEX,SWATH,INVERT,LEPHEX,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Leptasterias,hexactis,Leptasterias hexactis,WoRMS,Six Arm Star,,no
+LEPHEXAD,QUAD,INVERT,LEPHEXAD,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Leptasterias,hexactis,Leptasterias hexactis,WoRMS,Six Arm Star adult,,no
+LHIR,FISH,FISH,LHIR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,hirundo,Leiocottus hirundo,WoRMS,Lavender Sculpin,,no
+LINCOL,SWATH,INVERT,LINCOL,Animalia,Echinodermata,Asteroidea,Valvatida,Ophidiasteridae,Linckia,columbiae,Linckia columbiae,WoRMS,Fragile Star,,no
+LINCOL,QUAD,INVERT,LINCOL,Animalia,Echinodermata,Asteroidea,Valvatida,Ophidiasteridae,Linckia,columbiae,Linckia columbiae,WoRMS,Fragile Star,,no
+LINCOL,SIZEFREQ,INVERT,LINCOL,Animalia,Echinodermata,Asteroidea,Valvatida,Ophidiasteridae,Linckia,columbiae,Linckia columbiae,WoRMS,Fragile Star,,no
+LIPA,FISH,FISH,LIPA,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,Liparis,spp,Liparis,WoRMS,Snailfish,,no
+LLEP,FISH,FISH,LLEP,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lepidogobius,lepidus,Lepidogobius lepidus,WoRMS,Bay Goby,,no
+LMUC,FISH,FISH,LMUC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,Liparis,mucosus,Liparis mucosus,WoRMS,Slimy Snailfish,,no
+LOPMAN,SWATH,INVERT,LOPMAN,Animalia,Arthropoda,Malacostraca,Decapoda,Lithodidae,Lopholithodes,mandtii,Lopholithodes mandtii,WoRMS,Puget Sound King Crab,,no
+LOXGRA,SWATH,INVERT,LOXGRA,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Loxorhynchus,grandis,Loxorhynchus grandis,WoRMS,Sheep Crab,,no
+LOXSCY,SWATH,INVERT,LOXSCY,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Loxorhynchus/Scyra,crispatus/acutifrons,Loxorhynchus crispatus/Scyra acutifrons,WoRMS,"Decorator Crab, Moss Crab",,no
+LUIFOL,SWATH,INVERT,LUIFOL,Animalia,Echinodermata,Asteroidea,Paxillosida,Luidiidae,Luidia,foliolata,Luidia foliolata,WoRMS,Sand Star,,no
+LYTPIC,SIZEFREQ,INVERT,LYTPIC,Animalia,Echinodermata,Echinoidea,Camarodonta,Toxopneustidae,Lytechinus,pictus,Lytechinus pictus,WoRMS,white urchin,invert_herbivore,yes
+LYTPIC,SWATH,INVERT,LYTPIC,Animalia,Echinodermata,Echinoidea,Camarodonta,Toxopneustidae,Lytechinus,pictus,Lytechinus pictus,WoRMS,white urchin,invert_herbivore,yes
+MACPYRAD,SWATH,ALGAE,MACPYRAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,pyrifera,Macrocystis pyrifera,WoRMS,Macrocystis,algae,yes
+MACPYRHF,UPC,COVER,MACPYRHF,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,pyrifera,Macrocystis pyrifera,WoRMS,Macrosystis Holdfast (Alive),,no
+MCAL,FISH,FISH,MCAL,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,californiensis,Medialuna californiensis,WoRMS,Halfmoon,fish_herbivore,yes
+MCEP,FISH,FISH,MCEP,Animalia,Chordata,Actinopterygii,Perciformes,Mugilidae,Mugil,cephalus,Mugil cephalus,WoRMS,Mullet,,no
+MEDAEQ,SIZEFREQ,INVERT,MEDAEQ,Animalia,Echinodermata,Asteroidea,Valvatida,Goniasteridae,Mediaster,aequalis,Mediaster aequalis,WoRMS,Red Star,invert_herbivore,yes
+MEDAEQ,SWATH,INVERT,MEDAEQ,Animalia,Echinodermata,Asteroidea,Valvatida,Goniasteridae,Mediaster,aequalis,Mediaster aequalis,WoRMS,Red Star,invert_herbivore,yes
+MEGCRE,SIZEFREQ,INVERT,MEGCRE,Animalia,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Megathura,crenulata,Megathura crenulata,WoRMS,Giant Key-Hole Limpet,invert_herbivore,yes
+MEGCRE,SWATH,INVERT,MEGCRE,Animalia,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Megathura,crenulata,Megathura crenulata,WoRMS,Giant Key-Hole Limpet,invert_herbivore,yes
+MEGSPP,SWATH,INVERT,MEGSPP,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Megastrea/Lithopoma/Pomaulax/Astraea,spp,Turbinidae,WoRMS,Turban Snail,,no
+MEGUND,SWATH,INVERT,MEGUND,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Megastraea,undosa,Megastraea undosa,WoRMS,Wavy Turban Snail,invert_herbivore,yes
+MEGUND,SIZEFREQ,INVERT,MEGUND,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Megastraea,undosa,Megastraea undosa,WoRMS,Wavy Turban Snail,invert_herbivore,yes
+MESFRAAD,SIZEFREQ,INVERT,MESFRAAD,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Mesocentrotus,franciscanus,Mesocentrotus franciscanus,WoRMS,Red Urchin adult,invert_herbivore,yes
+MESFRAAD,SWATH,INVERT,MESFRAAD,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Mesocentrotus,franciscanus,Mesocentrotus franciscanus,WoRMS,Red Urchin adult,invert_herbivore,yes
+MESFRAREC,SWATH,INVERT,MESFRAREC,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Mesocentrotus,franciscanus,Mesocentrotus franciscanus,WoRMS,Red Urchin  recruit,,no
+METSPP,SWATH,INVERT,METSPP,Animalia,Cnidaria,Anthozoa,Actiniaria,Metridiidae,Metridium,spp,Metridium,WoRMS,White Plumed Anemones,,no
+MMIN,FISH,FISH,MMIN,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Micrometrus,minimus,Micrometrus minimus,WoRMS,Dwarf Surfperch,,no
+MMOL,FISH,FISH,MMOL,Animalia,Chordata,Actinopterygii,Tetradontiformes,Molidae,Mola,mola,Mola mola,WoRMS,Ocean Sunfish,,no
+MUD,UPC,COVER,MUD,NA,NA,NA,NA,NA,NA,NA,Sediment/Mud,PISCO,Sediment/Mud,,no
+MURCAL,SWATH,INVERT,MURCAL,Animalia,Cnidaria,Anthozoa,Alcyonacea,Plexauridae,Muricea,californica,Muricea californica,WoRMS,California Golden Gorgonian,,no
+MURFRU,SWATH,INVERT,MURFRU,Animalia,Cnidaria,Anthozoa,Alcyonacea,Plexauridae,Muricea,fruticosa,Muricea fruticosa,WoRMS,Brown Gorgonian,,no
+MUSSEL,UPC,COVER,MUSSEL,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,NA,Mytilus spp,WoRMS,Mussel,,no
+NBLA,FISH,FISH,NBLA,Animalia,Chordata,Actinopterygii,Perciformes,Chaenopsidae,Neoclinus,blanchardi,Neoclinus blanchardi,WoRMS,Sarcastic Fringehead,,no
+NEOFIM,SWATH,ALGAE,NEOFIM,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Agaraceae,Neoagarum,fimbriatum,Neoagarum fimbriatum,WoRMS,Sieve/colander kelp,algae,yes
+NEOSPA,SWATH,INVERT,NEOSPA,Animalia,Mollusca,Gastropoda,Littorinimorpha,Cypraeidae,Neobernaya,spadicea,Neobernaya spadicea,WoRMS,Chestnut Cowrie,,no
+NERLUE,SWATH,ALGAE,NERLUE,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Nereocystis,luetkeana,Nereocystis luetkeana,WoRMS,"Nereocystis, bull kelp",algae,yes
+NO_ORG,SIZEFREQ,SIZEFREQ,NO_ORG,NA,NA,NA,NA,NA,NA,NA,No Organisms Present In This Sample,PISCO,No Organisms Present In This Sample,,yes
+NO_ORG,QUAD,QUAD,NO_ORG,NA,NA,NA,NA,NA,NA,NA,No Organisms Present In This Sample,PISCO,No Organisms Present In This Sample,,yes
+NO_ORG,FISH,FISH,NO_ORG,NA,NA,NA,NA,NA,NA,NA,No Organisms Present In This Sample,PISCO,No Organisms Present In This Sample,,yes
+NO_ORG,SWATH,SWATH,NO_ORG,NA,NA,NA,NA,NA,NA,NA,No Organisms Present In This Sample,PISCO,No Organisms Present In This Sample,,yes
+NORSPP,SWATH,INVERT,NORSPP,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Norrisia,spp,Norrisia,WoRMS,Norris's Top Snail,invert_herbivore,yes
+NSTE,FISH,FISH,NSTE,Animalia,Chordata,Actinopterygii,Perciformes,Chaenopsidae,Neoclinus,stephensae,Neoclinus stephensae,WoRMS,Yellowfin Fringehead,,no
+NUNI,FISH,FISH,NUNI,Animalia,Chordata,Actinopterygii,Perciformes,Chaenopsidae,Neoclinus,uninotatus,Neoclinus uninotatus,WoRMS,Onespot Fringehead,,no
+OCAL,FISH,FISH,OCAL,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,californica,Oxyjulis californica,WoRMS,Senorita,,no
+OCTOCORAL,UPC,COVER,OCTOCORAL,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Octocoral,PISCO,Octocoral,,no
+OCTOPUS,SWATH,INVERT,OCTOPUS,Animalia,Mollusca,Cephalopoda,Octopoda,Octopodidae,Octopus,spp,Octopus,WoRMS,Octopus,,no
+OELO,FISH,FISH,OELO,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Ophiodon,elongatus,Ophiodon elongatus,WoRMS,Lingcod,,no
+OPIC,QUAD,FISH,OPIC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,pictus,Oxylebius pictus,WoRMS,Painted Greenling,,no
+OPIC,FISH,FISH,OPIC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,pictus,Oxylebius pictus,WoRMS,Painted Greenling,,no
+ORTKOE,SWATH,INVERT,ORTKOE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Orthasterias,koehleri,Orthasterias koehleri,WoRMS,Rainbow Star,,no
+ORTKOE,SIZEFREQ,INVERT,ORTKOE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Orthasterias,koehleri,Orthasterias koehleri,WoRMS,Rainbow Star,,no
+OTRI,FISH,FISH,OTRI,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Orthonopias,triacis,Orthonopias triacis,WoRMS,Snubnose Sculpin,,no
+OYB,FISH,FISH,OYB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"serranoides,flavidus,melanops",Sebastes serranoides/flavidus/melanops,WoRMS,"Olive, Yellowtail, and Black Rockfish Young Of Year",,no
+OYT,FISH,FISH,OYT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"serranoides,flavidus",Sebastes serranoides/flavidus,WoRMS,Olive Or Yellowtail Rockfish,,no
+PACFIM,QUAD,INVERT,PACFIM,Animalia,Cnidaria,Anthozoa,Spirularia,Cerianthidae,Pachycerianthus,fimbriatus,Pachycerianthus fimbriatus,WoRMS,Burrowing Anemone,,no
+PACFIM,SWATH,INVERT,PACFIM,Animalia,Cnidaria,Anthozoa,Spirularia,Cerianthidae,Pachycerianthus,fimbriatus,Pachycerianthus fimbriatus,WoRMS,Burrowing Anemone,,no
+PACRUB,UPC,COVER,PACRUB,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Sclerodactylidae,Pachythyone,rubra,Pachythyone rubra,WoRMS,Red Sea Cucumber,,no
+PACRUB,QUAD,INVERT,PACRUB,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Sclerodactylidae,Pachythyone,rubra,Pachythyone rubra,WoRMS,Red Sea Cucumber,,no
+PANINT,SWATH,INVERT,PANINT,Animalia,Arthropoda,Malacostraca,Decapoda,Palinuridae,Panulirus,interruptus,Panulirus interruptus,WoRMS,Spiny Lobster,,no
+PANINT,SIZEFREQ,INVERT,PANINT,Animalia,Arthropoda,Malacostraca,Decapoda,Palinuridae,Panulirus,interruptus,Panulirus interruptus,WoRMS,Spiny Lobster,,no
+PATMIN,SWATH,INVERT,PATMIN,Animalia,Echinodermata,Asteroidea,Valvatida,Asterinidae,Patiria,miniata,Patiria miniata,WoRMS,Bat Star,,no
+PATMIN,SIZEFREQ,INVERT,PATMIN,Animalia,Echinodermata,Asteroidea,Valvatida,Asterinidae,Patiria,miniata,Patiria miniata,WoRMS,Bat Star,,no
+PATR,FISH,FISH,PATR,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,atripes,Phanerodon atripes,WoRMS,Sharpnose Surfperch,,no
+PCAL,FISH,FISH,PCAL,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,californicus,Paralichthys californicus,WoRMS,California Halibut,,no
+PCLA,FISH,FISH,PCLA,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,clathratus,Paralabrax clathratus,WoRMS,"Kelp Bass, Calico Bass",fish_herbivore,no
+PCOE,FISH,FISH,PCOE,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronichthys,coenosus,Pleuronichthys coenosus,WoRMS,C-O Turbot,,no
+PETMON,UPC,COVER,PETMON,Animalia,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,Petaloconchus,montereyensis,Petaloconchus montereyensis,WoRMS,Worm Snail,,no
+PFAL,FISH,FISH,PFAL,Animalia,Chordata,Actinopterygii,Perciformes,Chaetodontidae,Prognathodes,falcifer,Prognathodes falcifer,WoRMS,Scythemarked Butterflyfish,,no
+PFUR,FISH,FISH,PFUR,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,furcatus,Phanerodon furcatus,WoRMS,White Surfperch,fish_herbivore,yes
+PGLA,FISH,FISH,PGLA,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Carcharhinidae,Prionace,glauca,Prionace glauca,WoRMS,Blue Shark,,no
+PHOL,FISH,FISH,PHOL,Animalia,Chordata,Actinopterygii,Perciformes,Pholidae,Pholidae,spp,Pholidae,WoRMS,Gunnels,,no
+PHRCAL,UPC,COVER,PHRCAL,Animalia,Annelida,Polychaeta,NA,Sabellariidae,Phragmatopoma,californica,Phragmatopoma californica,WoRMS,Colonial Sand Tube Worm,,no
+PHYSPP,UPC,COVER,PHYSPP,Plantae,Tracheophyta,Magnoliopsida,Alismatales,Cymodoceaceae,Phyllospadix,spp,Phyllospadix,WoRMS,Surfgrass,algae,yes
+PISBRE,SWATH,INVERT,PISBRE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,brevispinus,Pisaster brevispinus,WoRMS,Short Spined Star,,no
+PISBRE,SIZEFREQ,INVERT,PISBRE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,brevispinus,Pisaster brevispinus,WoRMS,Short Spined Star,,no
+PISGIG,SWATH,INVERT,PISGIG,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,giganteus,Pisaster giganteus,WoRMS,Giant Spined Star,,no
+PISGIG,SIZEFREQ,INVERT,PISGIG,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,giganteus,Pisaster giganteus,WoRMS,Giant Spined Star,,no
+PISOCH,SWATH,INVERT,PISOCH,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,ochraceus,Pisaster ochraceus,WoRMS,Ochre Star,,no
+PISOCH,SIZEFREQ,INVERT,PISOCH,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,ochraceus,Pisaster ochraceus,WoRMS,Ochre Star,,no
+PISSPP,SWATH,INVERT,PISSPP,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,spp,Pisaster,WoRMS,Pisaster spp. unidentified,,no
+PLEGAR,SWATH,ALGAE,PLEGAR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Pleurophycus,gardneri,Pleurophycus gardneri,WoRMS,Pleurophycus,algae,yes
+PLEU,FISH,FISH,PLEU,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronectidae,spp,Pleuronectidae,WoRMS,Righteyed Flounders,,no
+PMAC,FISH,FISH,PMAC,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,maculatofasciatus,Paralabrax maculatofasciatus,WoRMS,Spotted Sandbass,,no
+PNEB,FISH,FISH,PNEB,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,nebulifer,Paralabrax nebulifer,WoRMS,Barred Sandbass,,no
+PNOT,FISH,FISH,PNOT,Animalia,Chordata,Actinopterygii,Batrachoidiformes,Batrachoididae,Porichthys,notatus,Porichthys notatus,WoRMS,Plainfin Midshipman,,no
+POMGIB,SWATH,INVERT,POMGIB,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Pomaulax,gibberosus,Pomaulax gibberosus,WoRMS,Red Turban Snail,invert_herbivore,yes
+POMGIB,SIZEFREQ,INVERT,POMGIB,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Pomaulax,gibberosus,Pomaulax gibberosus,WoRMS,Red Turban Snail,invert_herbivore,yes
+PORINF,SWATH,INVERT,PORINF,Animalia,Echinodermata,Asteroidea,Valvatida,Poraniidae,Poraniopsis,inflata,Poraniopsis inflata,WoRMS,Spiny Sea Star,,no
+PPRO,FISH,FISH,PPRO,Animalia,Chordata,Elasmobranchii,Rajiformes,Rhinobatidae,Pseudobatos,productus,Pseudobatos productus,WoRMS,Shovelnose Guitarfish,,no
+PTECALAD,SWATH,ALGAE,PTECALAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Pterygophora,californica,Pterygophora californica,WoRMS,Pterygophora,algae,yes
+PTECALADSUB,SWATH,ALGAE,PTECALADSUB,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Pterygophora,californica,Pterygophora californica,WoRMS,Pterygophora,algae,yes
+PTESTE,SWATH,INVERT,PTESTE,Animalia,Mollusca,Bivalvia,Ostreida,Pteriidae,Pteria,sterna,Pteria sterna,WoRMS,Pacific wing oyster,,no
+PTETES,SWATH,INVERT,PTETES,Animalia,Echinodermata,Asteroidea,Velatida,Pterasteridae,Pteraster,tesselatus,Pteraster tesselatus,WoRMS,Cushion Star,,no
+PTRI,FISH,FISH,PTRI,Animalia,Chordata,Elasmobranchii,Rajiformes,Rhinobatidae,Platyrhinoidis,triseriata,Platyrhinoidis triseriata,WoRMS,Thornback,,no
+PUGFOL,SWATH,INVERT,PUGFOL,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,foliata,Pugettia foliata,WoRMS,Mimicking Crab,invert_herbivore,yes
+PUGPRO,QUAD,INVERT,PUGPRO,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,producta,Pugettia producta,WoRMS,Northern Kelp Crab,invert_herbivore,yes
+PUGPRO,SWATH,INVERT,PUGPRO,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,producta,Pugettia producta,WoRMS,Northern Kelp Crab,invert_herbivore,yes
+PUGRIC,QUAD,INVERT,PUGRIC,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,richii,Pugettia richii,WoRMS,Cryptic Kelp Crab,invert_herbivore,yes
+PUGRIC,SWATH,INVERT,PUGRIC,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,richii,Pugettia richii,WoRMS,Cryptic Kelp Crab,invert_herbivore,yes
+PUGSPP,SWATH,INVERT,PUGSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,spp,Pugettia spp,WoRMS,Kelp Crab,invert_herbivore,yes
+PYCHEL,SWATH,INVERT,PYCHEL,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pycnopodia,helianthoides,Pycnopodia helianthoides,WoRMS,Sunflower Star,,no
+RALL,FISH,FISH,RALL,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Rathbunella,alleni,Rathbunella alleni,WoRMS,Stripefin Ronquil,,no
+RHYP,FISH,FISH,RHYP,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Rathbunella,hypoplecta,Rathbunella hypoplecta,WoRMS,Smooth Ronquil,,no
+RJOR,FISH,FISH,RJOR,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Ronquilus,jordani,Ronquilus jordani,WoRMS,Northern Ronquil,,no
+RNIC,FISH,FISH,RNIC,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,nicholsii,Rhinogobiops nicholsii,WoRMS,Blackeye Goby,,no
+RNIC,QUAD,FISH,RNIC,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,nicholsii,Rhinogobiops nicholsii,WoRMS,Blackeye Goby,,no
+RRIC,FISH,FISH,RRIC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Rhamphocottidae,Rhamphocottus,richardsonii,Rhamphocottus richardsonii,WoRMS,Grunt Sculpin,,no
+RSTE,FISH,FISH,RSTE,Animalia,Chordata,Elasmobranchii,Rajiformes,Rajidae,Raja,stellulata,Raja stellulata,WoRMS,Starry Skate,,no
+RTOX,FISH,FISH,RTOX,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,toxotes,Rhacochilus toxotes,WoRMS,Rubberlip Surfperch,,no
+RVAC,FISH,FISH,RVAC,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,vacca,Rhacochilus vacca,WoRMS,Pile Surfperch,,no
+SACA,FISH,FISH,SACA,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,acanthias,Squalus acanthias,WoRMS,Spiny Dogfish,,no
+SALTRI,UPC,COVER,SALTRI,Animalia,Annelida,Polychaeta,Sabellida,Serpulidae,Salmacina,tribranchiata,Salmacina tribranchiata,WoRMS,Fragile Tube Worms,,no
+SAND,UPC,SUBSTRATE,SAND,NA,NA,NA,NA,NA,NA,NA,Substrate: Sand,PISCO,Substrate: Sand,,no
+SARG,FISH,FISH,SARG,Animalia,Chordata,Actinopterygii,Perciformes,Sphyraenidae,Sphyraena,argentea,Sphyraena argentea,WoRMS,California Barracuda,,no
+SARHOR,UPC,COVER,SARHOR,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,horneri,Sargassum horneri,WoRMS,Invasive Sargassum,algae,yes
+SARMUT,UPC,COVER,SARMUT,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,muticum,Sargassum muticum,WoRMS,Sargassum,algae,yes
+SARSPP,UPC,COVER,SARSPP,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,spp,Sargassum,WoRMS,Sargassum,algae,yes
+SATR,FISH,FISH,SATR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,atrovirens,Sebastes atrovirens,WoRMS,Kelp Rockfish,,no
+SAUR,FISH,FISH,SAUR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,auriculatus,Sebastes auriculatus,WoRMS,Brown Rockfish,,no
+SB00RED,UPC,COVER,SB00RED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,"UCSB 2000 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Bushy, Leafy, Crucor And Erecor",PISCO,"UCSB 2000 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Bushy, Leafy, Crucor And Erecor",,no
+SC00RED,UPC,COVER,SC00RED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,"UCSC 2000 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Bushy, Leafy, Crucor And Erecor",PISCO,"UCSC 2000 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Bushy, Leafy, Crucor And Erecor",,no
+SCAL,FISH,FISH,SCAL,Animalia,Chordata,Elasmobranchii,Squatiniformes,Squatinidae,Squatina,californica,Squatina californica,WoRMS,Pacific Angel Shark,,no
+SCALLOP,UPC,COVER,SCALLOP,Animalia,Mollusca,Bivalvia,Pectinida,NA,NA,NA,Scallop,PISCO,Scallop,,no
+SCAR,FISH,FISH,SCAR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,carnatus,Sebastes carnatus,WoRMS,Gopher Rockfish,,no
+SCARSCAU,FISH,FISH,SCARSCAU,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"carnatus, caurinus",Sebastes carnatus/caurinus,WoRMS,"Gopher, Copper Rockfish Young Of Year",,no
+SCAU,FISH,FISH,SCAU,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,caurinus,Sebastes caurinus,WoRMS,Copper Rockfish,,no
+SCHI,FISH,FISH,SCHI,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Sarda,chiliensis chiliensis,Sarda chiliensis chiliensis,WoRMS,Eastern Pacific Bonito,,no
+SCHR,FISH,FISH,SCHR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,chrysomelas,Sebastes chrysomelas,WoRMS,Black And Yellow Rockfish,,no
+SCSB99RED,UPC,COVER,SCSB99RED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,"UCSC and UCSB 1999 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Crucor And Erecor",PISCO,"UCSC and UCSB 1999 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Crucor And Erecor",,no
+SCUM,UPC,COVER,SCUM,NA,NA,NA,NA,NA,NA,NA,Diatom Layer,PISCO,Diatom Layer,,no
+SDAL,FISH,FISH,SDAL,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,dallii,Sebastes dallii,WoRMS,Calico Rockfish,,no
+SDIP,FISH,FISH,SDIP,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,diploproa,Sebastes diploproa,WoRMS,Spitnose Rockfish,,no
+SEBSPP,FISH,FISH,SEBSPP,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,spp,Sebastes,WoRMS,"Rockfish, Unidentified Sp.",,no
+SENT,FISH,FISH,SENT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,entomelas,Sebastes entomelas,WoRMS,Widow Rockfish,,no
+SGIG,FISH,FISH,SGIG,Animalia,Chordata,Actinopterygii,Perciformes,Polyprionidae,Stereolepis,gigas,Stereolepis gigas,WoRMS,Giant Sea Bass,,no
+SGUT,FISH,FISH,SGUT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,guttata,Scorpaena guttata,WoRMS,California Scorpionfish,,no
+SGUT,QUAD,FISH,SGUT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,guttata,Scorpaena guttata,WoRMS,California Scorpionfish,,no
+SHELL,UPC,COVER,SHELL,NA,NA,NA,NA,NA,NA,NA,Shell Debris,PISCO,Shell Debris,,no
+SHOP,FISH,FISH,SHOP,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,hopkinsi,Sebastes hopkinsi,WoRMS,Squarespot Rockfish,,no
+SJAP,FISH,FISH,SJAP,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Scomber,japonicus,Scomber japonicus,WoRMS,"Pacific Mackerel, Greenback Mackerel",,no
+SLAL,FISH,FISH,SLAL,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Seriola,lalandi,Seriola lalandi,WoRMS,Yellowtail,,no
+SLUC,FISH,FISH,SLUC,Animalia,Chordata,Actinopterygii,Aulopiformes,Synodontidae,Synodus,lucioceps,Synodus lucioceps,WoRMS,California Lizardfish,,no
+SMAL,FISH,FISH,SMAL,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,maliger,Sebastes maliger,WoRMS,Quillback Rockfish,,no
+SMAR,FISH,FISH,SMAR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Scorpaenichthys,marmoratus,Scorpaenichthys marmoratus,WoRMS,Cabezon,,no
+SMEL,FISH,FISH,SMEL,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,melanops,Sebastes melanops,WoRMS,Black Rockfish,,no
+SMIN,FISH,FISH,SMIN,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,miniatus,Sebastes miniatus,WoRMS,Vermilion Rockfish,,no
+SMYS,FISH,FISH,SMYS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,mystinus,Sebastes mystinus,WoRMS,Blue Rockfish,,no
+SNEB,FISH,FISH,SNEB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,nebulosus,Sebastes nebulosus,WoRMS,China Rockfish,,no
+SOLDAW,SWATH,INVERT,SOLDAW,Animalia,Echinodermata,Asteroidea,Valvatida,Solasteridae,Solaster,dawsoni,Solaster dawsoni,WoRMS,Dawson'S Sun Star,,no
+SOLSPP,SWATH,INVERT,SOLSPP,Animalia,Echinodermata,Asteroidea,Valvatida,Solasteridae,Solaster,spp,Solaster,WoRMS,Unidentified Sun Star,,no
+SOLSTI,SWATH,INVERT,SOLSTI,Animalia,Echinodermata,Asteroidea,Valvatida,Solasteridae,Solaster,stimpsoni,Solaster stimpsoni,WoRMS,Stimpson'S Sun Star,,no
+SOLTUN,UPC,COVER,SOLTUN,Animalia,Chordata,Ascidiacea,NA,NA,NA,NA,Tunicate -Solitary,PISCO,Tunicate -Solitary,,no
+SPAU,FISH,FISH,SPAU,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,paucispinis,Sebastes paucispinis,WoRMS,Bocaccio,,no
+SPIN,FISH,FISH,SPIN,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,pinniger,Sebastes pinniger,WoRMS,Canary Rockfish,,no
+SPONGE,UPC,COVER,SPONGE,Animalia,Porifera,NA,NA,NA,NA,NA,Porifera,WoRMS,Sponge,,no
+SPUL,FISH,FISH,SPUL,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,pulcher,Semicossyphus pulcher,WoRMS,California Sheephead,,no
+SRAS,FISH,FISH,SRAS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,rastrelliger,Sebastes rastrelliger,WoRMS,Grass Rockfish,,no
+SROS,FISH,FISH,SROS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,rosaceus,Sebastes rosaceus,WoRMS,Rosy Rockfish,,no
+SRUB,FISH,FISH,SRUB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,rubrivinctus,Sebastes rubrivinctus,WoRMS,Flag Rockfish,,no
+SSAG,FISH,FISH,SSAG,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sardinops,sagax,Sardinops sagax,WoRMS,Pacific Sardine,,no
+SSAX,FISH,FISH,SSAX,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,saxicola,Sebastes saxicola,WoRMS,Stripetail Rockfish,,no
+SSEM,FISH,FISH,SSEM,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,semicinctus,Sebastes semicinctus,WoRMS,Halfbanded Rockfish,,no
+STEOSM,UPC,COVER,STEOSM,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Stephanocystis,osmundacea,Stephanocystis osmundacea,WoRMS,chain-bladder kelp,algae,yes
+STEOSMAD,SWATH,ALGAE,STEOSMAD,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Stephanocystis,osmundacea,Stephanocystis osmundacea,WoRMS,chain-bladder kelp adult,algae,yes
+STICH,FISH,FISH,STICH,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Stichaeidae,spp,Stichaeidae,WoRMS,Pricklebacks,,no
+STRE,FISH,FISH,STRE,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,serriceps,Sebastes serriceps,WoRMS,Treefish,,no
+STRPURAD,SWATH,INVERT,STRPURAD,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,purpuratus,Strongylocentrotus purpuratus,WoRMS,Purple Urchin adult,invert_herbivore,yes
+STRPURAD,QUAD,INVERT,STRPURAD,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,purpuratus,Strongylocentrotus purpuratus,WoRMS,Purple Urchin adult,invert_herbivore,yes
+STRPURREC,SWATH,INVERT,STRPURREC,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,purpuratus,Strongylocentrotus purpuratus,WoRMS,Purple Urchin recruit,,no
+STRPURREC,QUAD,INVERT,STRPURREC,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,purpuratus,Strongylocentrotus purpuratus,WoRMS,Purple Urchin recruit,,no
+STYCAL,SWATH,INVERT,STYCAL,Animalia,Cnidaria,Hydrozoa,Anthoathecata,Stylasteridae,Stylaster,californicus,Stylaster californicus,WoRMS,California Hydrocoral,,no
+STYCAL,UPC,COVER,STYCAL,Animalia,Cnidaria,Hydrozoa,Anthoathecata,Stylasteridae,Stylaster,californicus,Stylaster californicus,WoRMS,California Hydrocoral,,no
+STYFOR,SWATH,INVERT,STYFOR,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Stylasterias,forreri,Stylasterias forreri,WoRMS,Velcro Star,,no
+STYMON,QUAD,INVERT,STYMON,Animalia,Chordata,Ascidiacea,Stolidobranchia,Styelidae,Styela,montereyensis,Styela montereyensis,WoRMS,Stalked Tunicate,,no
+STYMON,SWATH,INVERT,STYMON,Animalia,Chordata,Ascidiacea,Stolidobranchia,Styelidae,Styela,montereyensis,Styela montereyensis,WoRMS,Stalked Tunicate,,no
+STYPAP,UPC,COVER,STYPAP,Animalia,Cnidaria,Hydrozoa,Anthoathecata,Stylasteridae,Stylantheca,papillosa,Stylantheca papillosa,WoRMS,Encrusting Purple Hydrocoral,,no
+SYNG,FISH,FISH,SYNG,Animalia,Chordata,Actinopterygii,Syngnathiformes,Syngnathidae,Syngnathus,spp,Syngnathus,WoRMS,Pipefish,,no
+SYRI,FISH,FISH,SYRI,Animalia,Chordata,Actinopterygii,Scorpaeniformes/Gobiesociformes,Cottidae/Gobiesocidae,Synchirus/Rimicola,spp,Synchirus/Rimicola,WoRMS,Manacled Sculpin/Kelp Clingfish,,no
+TALNUT,SWATH,INVERT,TALNUT,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Taliepus,nuttallii,Taliepus nuttallii,WoRMS,Southern Kelp Crab,invert_herbivore,yes
+TCAL,FISH,FISH,TCAL,Animalia,Chordata,Elasmobranchii,Torpediniformes,Torpedinidae,Tetronarce,californica,Tetronarce californica,WoRMS,Pacific Electric Ray,,no
+TEGREG,SWATH,INVERT,TEGREG,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,regina,Tegula regina,WoRMS,Queen Tegula,invert_herbivore,yes
+TEGSPP,QUAD,INVERT,TEGSPP,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,spp,Tegula spp,WoRMS,Turban snail,,no
+TEGSPP,SWATH,INVERT,TEGSPP,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,spp,Tegula spp,WoRMS,Turban snail,,no
+TEST,SWATH,INVERT,TEST,NA,NA,NA,NA,NA,NA,NA,Whole urchin test,PISCO,Whole urchin test,,no
+TETCAL,SWATH,INVERT,TETCAL,Animalia,Porifera,Demospongiae,Tethyida,Tethyidae,Tethya,californiana,Tethya californiana,WoRMS,Orange Puff-Ball Sponge,,no
+THYPET,UPC,COVER,THYPET,Animalia,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,Thylacodes/Petaloconchus,squamigerus/montereyensis,Thylacodes squamigerus/Petaloconchus montereyensis,WoRMS,"Tube Snail, Scaled Worm Shell",,no
+THYSQU,UPC,COVER,THYSQU,Animalia,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,Thylacodes,squamigerus,Thylacodes squamigerus,WoRMS,"Tube Snail, Scaled Worm Shell",,no
+TSEM,FISH,FISH,TSEM,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,semifasciata,Triakis semifasciata,WoRMS,Leopard Shark,,no
+TSYM,FISH,FISH,TSYM,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Trachurus,symmetricus,Trachurus symmetricus,WoRMS,Jack Mackerel,,no
+TUBEMAT,UPC,COVER,TUBEMAT,Animalia,Annelida,Polychaeta,NA,NA,NA,NA,Tubeworm mat,PISCO,Tubeworm mat,,no
+TUBEWORM,UPC,COVER,TUBEWORM,Animalia,Annelida,Polychaeta,NA,NA,NA,NA,Tubeworm,PISCO,Tubeworm,,no
+TURF,UPC,COVER,TURF,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Filamentous Turf,PISCO,Red Filamentous Turf,algae,yes
+UNDJUVLAM,UPC,SUPERLAYER,UNDJUVLAM,Chromista,Ochrophyta,Phaeophyceae,Laminariales,NA,NA,NA,Laminariales Recruit,PISCO,Laminariales Recruit,,no
+UNDPIN,SWATH,ALGAE,UNDPIN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Undaria,pinnatifida,Undaria pinnatifida,WoRMS,Undaria,algae,yes
+UNDPIN,UPC,COVER,UNDPIN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Undaria,pinnatifida,Undaria pinnatifida,WoRMS,Undaria,algae,yes
+UNID,FISH,FISH,UNID,Animalia,Chordata,NA,NA,NA,NA,NA,Unidentified Fish,PISCO,Unidentified Fish,,no
+URTCOL,SWATH,INVERT,URTCOL,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,columbiana,Urticina columbiana,WoRMS,McPeak's Anemone,,no
+URTCOL,SWATH,INVERT,URTCOL,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,columbiana,Urticina columbiana,WoRMS,Sand-Rose Anemone,,no
+URTCOLMCP,SWATH,INVERT,URTCOLMCP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,columbiana/mcpeaki,Urticina columbiana/mcpeaki,WoRMS,Sand-Rose/McPeak's Anemone,,no
+URTCOR,SWATH,INVERT,URTCOR,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,coriacea,Urticina coriacea,WoRMS,Stubby Rose Anemone,,no
+URTCRA,SWATH,INVERT,URTCRA,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,crassicornis,Urticina crassicornis,WoRMS,Christmas Anemone,,no
+URTPIS,SWATH,INVERT,URTPIS,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,piscivora,Urticina piscivora,WoRMS,Fish-Eating Anemone,,no
+URTSPP,SWATH,INVERT,URTSPP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,spp,Urticina,WoRMS,Urticina Spp.,,no
+USAN,FISH,FISH,USAN,Animalia,Chordata,Actinopterygii,Perciformes,Pholidae,Ulvicola,sanctaerosae,Ulvicola sanctaerosae,WoRMS,Kelp Gunnel,,no
+WATSUB,UPC,COVER,WATSUB,Animalia,Bryozoa,Gymnolaemata,Cheilostomatida,Watersiporidae,Watersipora,subtorquata,Watersipora subtorquata,WoRMS,Invasive bryozoan,,no
+ZROS,FISH,FISH,ZROS,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Zalembius,rosaceus,Zalembius rosaceus,WoRMS,Pink Surfperch,,no

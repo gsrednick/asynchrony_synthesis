@@ -1,0 +1,320 @@
+campus,sample_type,sample_subtype,classcode,Kingdom,Phylum,Class,Order,Family,Genus,Species,species,taxonomic_source,taxonomic_id,common_name,notes
+UCSB,UPC,COVER,ANEM,Animalia,Cnidaria,Anthozoa,Actiniaria,NA,NA,NA,Actiniaria,WoRMS,123338,Anemone,Any anemone including Pachycerianthus fimbriatus.
+UCSB,UPC,COVER,AGLSTR,Animalia,Cnidaria,Hydrozoa,Leptothecata,Aglaopheniidae,Aglaophenia,struthionides,Aglaophenia struthionides,WoRMS,441698/442171,Ostrich-Plume Hydroid,"All other hydroids are sampled as ""Hydroid"""
+UCSB,SWATH,ALGAE,ALAMAR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Alaria,marginata,Alaria marginata,WoRMS,255044,Alaria,NA
+UCSB,FISH,FISH,AHOL,Animalia,Chordata,Actinopterygii,Perciformes,Labrisomidae,Alloclinus,holderi,Alloclinus holderi,WoRMS,NA,Island Kelpfish,"Cryptic, not sampled effectiively"
+UCSB,FISH,FISH,AVUL,Animalia,Chordata,Elasmobranchii,Lamniformes,Alopiidae,Alopias,vulpinus,Alopias vulpinus,WoRMS,NA,Thresher Shark,NA
+UCSB,FISH,FISH,AARG,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Amphistichus,argenteus,Amphistichus argenteus,WoRMS,NA,Barred Surfperch,NA
+UCSB,FISH,FISH,AOCE,Animalia,Chordata,Actinopterygii,Perciformes,Anarhichadidae,Anarrhichthys,ocellatus,Anarrhichthys ocellatus,WoRMS,NA,Wolf Eel,NA
+UCSB,FISH,FISH,ADAV,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,davidsonii,Anisotremus davidsonii,WoRMS,NA,Sargo,NA
+UCSB,FISH,FISH,AINE,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Agonidae,Anoplagonus,inermis,Anoplagonus inermis,WoRMS,NA,Smooth Alligatorfish,NA
+UCSB,SWATH,INVERT,ANTSPP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,spp,Anthopleura,WoRMS,372515/503878,Unidentified Anemone,"After 1999, species were ID'd and counted separately. This species group was split in 2000 into A. sola and A. xanthagrammica"
+UCSB,QUAD,INVERT,ANTART,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,artemisia,Anthopleura artemisia,WoRMS,274853,Moonglow Anemone,NA
+UCSB,SWATH,INVERT,ANTSOL,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,sola,Anthopleura sola,WoRMS,371985,Green Anemone,This species group was split in 2000 from Anthopleura spp.
+UCSB,SWATH,INVERT,ANTXAN,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,xanthogrammica,Anthopleura xanthogrammica,WoRMS,371990,Giant Green Anemone,This species group was split in 2000 from Anthopleura spp.
+UCSB,SWATH,INVERT,APLCAL,Animalia,Mollusca,Gastropoda,Aplysiida,Aplysiidae,Aplysia,californica,Aplysia californica,WoRMS,371990,California Brown Sea Hare,NA
+UCSB,SWATH,INVERT,APLVAC,Animalia,Mollusca,Gastropoda,Aplysiida,Aplysiidae,Aplysia,vaccaria,Aplysia vaccaria,WoRMS,372698,Black Sea Hare,NA
+UCSB,FISH,FISH,AGUA,Animalia,Chordata,Actinopterygii,Perciformes,Apogonidae,Apogon,guadalupensis,Apogon guadalupensis,WoRMS,NA,Guadalupe Cardinalfish,NA
+UCSB,SWATH,INVERT,APOSPP,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,spp,Apostichopus,WoRMS,845,Sea Cucumber,"After 1999, species were ID'd and counted separately. This species group was split in 2000 into P. californicus and P. parvimensis"
+UCSB,SWATH,INVERT,APOCAL,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,californicus,Apostichopus californicus,WoRMS,240748,California Sea Cucumber,This species was grouped as Apostichopus spp. prior to 2001
+UCSB,SWATH,INVERT,APOPAR,Animalia,Echinodermata,Holothuroidea,Synallactida,Stichopodidae,Apostichopus,parvimensis,Apostichopus parvimensis,WoRMS,144199,Warty Sea Cucumber,This species was grouped as Apostichopus spp. prior to 2000
+UCSB,SWATH,INVERT,ARBSTE,Animalia,Echinodermata,Echinoidea,Arbacioida,Arbaciidae,Arbacia,stellata,Arbacia stellata,WoRMS,232231,black urchin,NA
+UCSB,FISH,FISH,ACOR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Artedius,corallinus,Artedius corallinus,WoRMS,NA,Coralline Sculpin,"Cryptic, not sampled effectiively"
+UCSB,SWATH,INVERT,ASTSPP,Animalia,Echinodermata,Asteroidea,NA,NA,Asteroidea,spp,Asteroidea,WoRMS,240752,Unidentified Seastar,After 2010 all seastars were ID'd to species.
+UCSB,SWATH,INVERT,ASTSER,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Astrometis,sertulifera,Astrometis sertulifera,WoRMS,1313053,Fragile Rainbow Star,"Added to species list in 2011, previous years stars not on species list were lumped as ASTSPP (unidentified asteroid)."
+UCSB,SWATH,INVERT,ASTARM,Animalia,Echinodermata,Asteroidea,Paxillosida,Astropectinidae,Astropecten,armatus,Astropecten armatus,WoRMS,1313053,Armored Sand Star,NA
+UCSB,FISH,FISH,ATHE,Animalia,Chordata,Actinopterygii,Atheriniformes,Atherinopsidae,Atherinopsidae,spp,Atherinopsidae,WoRMS,NA,"Grunion, Topsmelt Or Jacksmelt",NA
+UCSB,FISH,FISH,ANOB,Animalia,Chordata,Actinopterygii,Perciformes,Sciaenidae,Atractoscion,nobilis,Atractoscion nobilis,WoRMS,NA,White Seabass,NA
+UCSB,FISH,FISH,AFLA,Animalia,Chordata,Actinopterygii,Gasterosteiformes,Aulorhynchidae,Aulorhynchus,flavidus,Aulorhynchus flavidus,WoRMS,NA,Tubesnout,NA
+UCSB,SWATH,INVERT,BALNUB,Animalia,Arthropoda,Hexanauplia,Sessilia,Balanidae,Balanus,nubilus,Balanus nubilus,WoRMS,240750,Barnacle,This species was sampled starting in 2000
+UCSB,FISH,FISH,BPOL,Animalia,Chordata,Actinopterygii,Tetraodontiformes,Balistidae,Balistes,polylepis,Balistes polylepis,WoRMS,NA,Finescale Triggerfish,NA
+UCSB,UPC,COVER,BARROC,NA,NA,NA,NA,NA,NA,NA,Bare Rock,PISCO,240747,Bare Rock,NA
+UCSB,UPC,COVER,BARSAN,NA,NA,NA,NA,NA,NA,NA,Bare Sand,PISCO,255062,Bare Sand,NA
+UCSB,FISH,FISH,BATH,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Bathymasteridae,spp,Bathymasteridae,WoRMS,NA,Ronquils,NA
+UCSB,FISH,FISH,BLEN,Animalia,Chordata,Actinopterygii,Perciformes,Blenniidae,Blenniidae,spp,Blenniidae,WoRMS,NA,Blennies,"Cryptic, not sampled effectiively"
+UCSB,FISH,FISH,BOTH,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,Bothidae,spp,Bothidae,WoRMS,NA,Lefteyed Flounders,NA
+UCSB,FISH,FISH,BFRE,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,frenatus,Brachyistius frenatus,WoRMS,NA,Kelp Surfperch,NA
+UCSB,UPC,COVER,BRYO,Animalia,Bryozoa,NA,NA,NA,NA,NA,Bryozoa,WoRMS,413467,Bryozoan,Bryozoans not otherwise classified. Dioporecia californica is distinguished and sampled separately
+UCSB,SWATH,INVERT,CALSPP,Animalia,Mollusca,Gastropoda,Trochida,Calliostomatidae,Calliostoma,spp,Calliostoma,WoRMS,240750,Top Snail,Not sampled.
+UCSB,QUAD,INVERT,CALANN,Animalia,Mollusca,Gastropoda,Trochida,Calliostomatidae,Calliostoma,annulatum,Calliostoma annulatum,WoRMS,126227,Purple Ringed Topsnail,Not sampled in quadrats after 2002. This species group was no longer sampled after 2002
+UCSB,QUAD,INVERT,CALLIG,Animalia,Mollusca,Gastropoda,Trochida,Calliostomatidae,Calliostoma,ligatum,Calliostoma ligatum,WoRMS,126227,Blue Top Snail,Not sampled in quadrats after 2002. This species group was no longer sampled after 2002
+UCSB,SWATH,INVERT,CANSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Cancridae,NA,NA,Cancridae,WoRMS,234483,Cancer Crab,NA
+UCSB,FISH,FISH,CPRI,Animalia,Chordata,Actinopterygii,Perciformes,Malacanthidae,Caulolatilus,princeps,Caulolatilus princeps,WoRMS,278535,Ocean Whitefish,NA
+UCSB,FISH,FISH,CVIO,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Cebidichthys,violaceus,Cebidichthys violaceus,WoRMS,125519,Monkeyface Eel,NA
+UCSB,SWATH,INVERT,CENCOR,Animalia,Echinodermata,Echinoidea,Diadematoida,Diadematidae,Centrostephanus,coronatus,Centrostephanus coronatus,WoRMS,502165,"Coronado Urchin, Crowned Urchin",At UCSB this species was sampled on swath transects instead of quadrats starting in 2002
+UCSB,FISH,FISH,CVEN,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Scyliorhinidae,Cephaloscyllium,ventriosum,Cephaloscyllium ventriosum,WoRMS,240721,Swell Shark,NA
+UCSB,QUAD,INVERT,CERSPP,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ceratostoma,spp,Ceratostoma,WoRMS,845703,Leafy Or Nuttall'S Hornmouth,Combined species group of Ceratostoma spp. This species group was split in 2005 into C. foliatum and C. nuttalli.  It is counted on swath transects at northern California sites.
+UCSB,QUAD,INVERT,CHAOVO,Animalia,Mollusca,Bivalvia,Myida,Pholadidae,Chaceia,ovoidea,Chaceia ovoidea,WoRMS,279060,Wart-Necked Piddock,This species group was split in 2003 from Chaceia/Parapholas spp.
+UCSB,QUAD,INVERT,CHAPAR,Animalia,Mollusca,Bivalvia,Myida,Pholadidae,Chaceia/Parapholas,spp,Chaceia/Parapholas,WoRMS,279060,Wart-Neck Piddock/Scaleside Piddock,Combined species group of Chaceia ovoidea and Parapholas californica. This species group was split in 2003 into Chaceia ovoidea and Parapholas californica
+UCSB,FISH,FISH,CSAT,Animalia,Chordata,Actinopterygii,Perciformes,Sciaenidae,Cheilotrema,saturnum,Cheilotrema saturnum,WoRMS,105836,Black Croaker,NA
+UCSB,FISH,FISH,CNUG,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Chirolophis,nugator,Chirolophis nugator,WoRMS,273016,Mosshead Warbonnet,"Cryptic, not sampled effectiively"
+UCSB,FISH,FISH,CPUG,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Chitonotus,pugetensis,Chitonotus pugetensis,WoRMS,279605,Roughback Sculpin,"Cryptic, not sampled effectiively"
+UCSB,UPC,COVER,GREEN,Plantae,Chlorophyta,NA,NA,NA,NA,NA,Chlorophyta,WoRMS,123479,Green Algae,"Any green algae including Codium, Ulva, Cladophora, Enteromorpha."
+UCSB,FISH,FISH,CPUN,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Chromis,punctipinnis,Chromis punctipinnis,WoRMS,266995,Blacksmith,NA
+UCSB,UPC,COVER,BARNAC,Animalia,Arthropoda,Hexanauplia,NA,NA,NA,NA,Cirripedia,WoRMS,240747,Barnacle,NA
+UCSB,FISH,FISH,CITH,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys,spp,Citharichthys,WoRMS,279699,Sanddabs,NA
+UCSB,FISH,FISH,CSOR,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys,sordidus,Citharichthys sordidus,WoRMS,10297,Pacific Sanddab,NA
+UCSB,FISH,FISH,CSTI,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys,stigmaeus,Citharichthys stigmaeus,WoRMS,151388,Speckled Sanddab,NA
+UCSB,UPC,COVER,CLAM,Animalia,Mollusca,Bivalvia,NA,NA,NA,NA,Clam,PISCO,283440,Clam,Any embedded boring clam.
+UCSB,FISH,FISH,CLIN,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Clinidae,spp,Clinidae,WoRMS,279617,Kelpfishes And Fringeheads,"Most species cryptic, not sampled effectively."
+UCSB,FISH,FISH,CLUP,Animalia,Chordata,Actinopterygii,Clupeiformes,NA,NA,NA,Clupeiformes,WoRMS,279839,Sardines And Anchovies,NA
+UCSB,QUAD,INVERT,CONCAL,Animalia,Mollusca,Gastropoda,Neogastropoda,Conidae,Conus,californicus,Conus californicus,WoRMS,273305,Califonia Cone Snail,NA
+UCSB,UPC,COVER,CRUCOR,Plantae,Rhodophyta,Florideophyceae,Corallinales,NA,NA,NA,Coralline Algae -Crustose,PISCO,283445,Coralline Algae -Crustose,NA
+UCSB,UPC,COVER,ERECOR,Plantae,Rhodophyta,Florideophyceae,Corallinales,NA,NA,NA,Coralline Algae -Erect/Articulated,PISCO,NA,Coralline Algae -Erect/Articulated,NA
+UCSB,UPC,COVER,CORCAL,Animalia,Cnidaria,Anthozoa,Corallimorpharia,Corallimorphidae,Corynactis,californica,Corynactis californica,WoRMS,100832,Strawberry Anemone,NA
+UCSB,SWATH,ALGAE,COSCOS,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Costariaceae,Costaria,costata,Costaria costata,WoRMS,445308,Costaria,This species was sampled at northern California sites since 1999 but only at southern California sites starting in 2004
+UCSB,FISH,FISH,COTT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Cottidae,spp,Cottidae,WoRMS,279560,Sculpins,"Most species cryptic, not sampled effectively."
+UCSB,SWATH,INVERT,CRAGIG,Animalia,Mollusca,Bivalvia,Pectinida,Pectinidae,Crassadoma,gigantea,Crassadoma gigantea,WoRMS,240753,Rock Scallop,NA
+UCSB,SWATH,INVERT,CRIALB,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Cribrinopsis,albopunctata,Cribrinopsis albopunctata,WoRMS,100696,White-Spotted Rose Anemone,NA
+UCSB,SWATH,INVERT,CROCAL,Animalia,Mollusca,Gastropoda,Littorinimorpha,Bursidae,Crossata,californica,Crossata californica,WoRMS,283377,California Frog Shell,Not sampled.
+UCSB,SWATH,INVERT,CRYSTE,Animalia,Mollusca,Polyplacophora,Chitonida,Acanthochitonidae,Cryptochiton,stelleri,Cryptochiton stelleri,WoRMS,568031,Gumboot Chiton,NA
+UCSB,SWATH,INVERT,CRYSIT,Animalia,Arthropoda,Malacostraca,Decapoda,Lithodidae,Cryptolithodes,sitchensis,Cryptolithodes sitchensis,WoRMS,240765,Umbrella Crab,NA
+UCSB,QUAD,INVERT,CUCSPP,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,spp,Cucumaria,WoRMS,NA,"Sea Cucumber (embedded, non-mobile)",Any other embedded (non-mobile) sea cucumber not otherwise identified to species.
+UCSB,QUAD,INVERT,CUCMIN,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,miniata,Cucumaria miniata,WoRMS,273305,Orange Sea Cucumber,This species is counted on swath transects at northern California sites
+UCSB,QUAD,INVERT,CUCPIP,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,piperata,Cucumaria piperata,WoRMS,315896,Sea Cucumber,NA
+UCSB,QUAD,INVERT,CUCSAL,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Cucumariidae,Cucumaria,salma,Cucumaria salma,WoRMS,NA,Sea Cucumber,NA
+UCSB,UPC,COVER,CUPCOR,Animalia,Cnidaria,Anthozoa,Scleractinia,NA,NA,NA,Cup Coral,PISCO,284054,Cup Coral,"Includes Balanophyllia elegans, Astrangia lajollaensis, Paracyathus stearnsi."
+UCSB,FISH,FISH,CAGG,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Cymatogaster,aggregata,Cymatogaster aggregata,WoRMS,NA,Shiner Surfperch,NA
+UCSB,SWATH,INVERT,DERIMB,Animalia,Echinodermata,Asteroidea,Valvatida,Asteropseidae,Dermasterias,imbricata,Dermasterias imbricata,WoRMS,529435,Leather Star,NA
+UCSB,UPC,COVER,DESSPP,Chromista,Ochrophyta,Phaeophyceae,Desmarestiales,Desmarestiaceae,Desmarestia,spp,Desmarestia,WoRMS,1082,Acidic Seaweed,NA
+UCSB,UPC,COVER,DIACAL,Animalia,Bryozoa,Stenolaemata,Cyclostomatida,NA,Diaperoforma,californica,Diaperoforma californica,WoRMS,NA,Southern Staghorn Bryozoan,"All other bryozoans are sampled as ""Bryozoan"""
+UCSB,UPC,COVER,SCUM,NA,NA,NA,NA,NA,NA,NA,Diatom Layer,PISCO,NA,Diatom Layer,"Diatom layer or decomposing, flocculent material, ""Scum""."
+UCSB,UPC,COVER,DICSPP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Costariaceae,Dictyoneurum,californicum/reticulatum,Dictyoneurum californicum/reticulatum,WoRMS,NA,Dictyoneurum,sampled on swath trasects prior to 2001
+UCSB,UPC,COVER,DICTYOTALES,Chromista,Ochrophyta,Phaeophyceae,Dictyotales,NA,Dictyotales,spp,Dictyotales,WoRMS,830,Dictyotales,NA
+UCSB,UPC,COVER,DIOCHA,Animalia,Annelida,Polychaeta,"Eunicida, no order available for Chaetopterus","Onuphidae, Chaetopteridae",Diopatra/Chaetopterus,spp,Diopatra/Chaetopterus spp,WoRMS,146142,Ornate Tube Worm,Combined species group of Diopatra ornata and Chaetopterus sp..
+UCSB,UPC,COVER,DODFEW,Animalia,Annelida,Polychaeta,Terebellida,Cirratulidae,Dodecaceria,fewkesi,Dodecaceria fewkesi,WoRMS,NA,Dodecaceria,"This species was sampled starting in 2000. In 1999 it was part of the species group ""tubeworm""."
+UCSB,UPC,COVER,EGRMEN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Egregia,menziesii,Egregia menziesii,WoRMS,NA,Egregia,NA
+UCSB,SWATH,ALGAE,EISARBAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Eisenia,arborea,Eisenia arborea,WoRMS,445357,Southern Sea Palm,NA
+UCSB,FISH,FISH,EJAC,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,jacksoni,Embiotoca jacksoni,WoRMS,125576,Black Surfperch,NA
+UCSB,FISH,FISH,ELAT,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,lateralis,Embiotoca lateralis,WoRMS,275234,Striped Surfperch,NA
+UCSB,FISH,FISH,EMBI,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotocidae,spp,Embiotocidae,WoRMS,271485,Surfperches,NA
+UCSB,FISH,FISH,EMOR,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,mordax,Engraulis mordax,WoRMS,280461,Northern Anchovy,NA
+UCSB,SWATH,INVERT,EUGRUB,Animalia,Cnidaria,Anthozoa,Alcyonacea,Gorgoniidae,Eugorgia,rubens,Eugorgia rubens,WoRMS,292851,Purple Gorgonian,NA
+UCSB,QUAD,INVERT,EUPQUI,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Sclerodactylidae,Eupentacta,quinquesemita,Eupentacta quinquesemita,WoRMS,322270,White Sea Cucumber,NA
+UCSB,FISH,FISH,GGAL,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Galeorhinus,galeus,Galeorhinus galeus,WoRMS,125530,Tope Shark,NA
+UCSB,QUAD,FISH,GIBB,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,spp,Gibbonsia,WoRMS,274848,Kelpfish,This species is counted on swath transects at northern California sites
+UCSB,FISH,FISH,GELE,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,elegans,Gibbonsia elegans,WoRMS,125530,Spotted Kelpfish,"Cryptic, not sampled effectiively. This species was counted on quadrats at southern California sites"
+UCSB,FISH,FISH,GNIG,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Girella,nigricans,Girella nigricans,WoRMS,276217,Opaleye,NA
+UCSB,UPC,COVER,GORGAD,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Gorgonian Adult,PISCO,NA,Gorgonian Adult,NA
+UCSB,QUAD,INVERT,GORGREC,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Gorgonian Recruit,PISCO,283213,Gorgonian Recruit,NA
+UCSB,FISH,FISH,GMOR,Animalia,Chordata,Actinopterygii,Anguilliformes,Muraenidae,Gymnothorax,mordax,Gymnothorax mordax,WoRMS,125589,California Moray,NA
+UCSB,FISH,FISH,HCAL,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Haemulon,californiensis,Haemulon californiensis,WoRMS,275694,Californian Salema,NA
+UCSB,FISH,FISH,HSEM,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,semicinctus,Halichoeres semicinctus,WoRMS,240737/274779,Rock Wrasse,NA
+UCSB,SWATH,INVERT,HALSPP,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,spp,Haliotis,WoRMS,171324,Abalone Spp.,NA
+UCSB,SWATH,INVERT,HALCOR,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,corrugata,Haliotis corrugata,WoRMS,1074819,Pink Abalone,NA
+UCSB,SWATH,INVERT,HALCRA,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,cracherodii,Haliotis cracherodii,WoRMS,594745,Black Abalone,NA
+UCSB,SWATH,INVERT,HALFUL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,fulgens,Haliotis fulgens,WoRMS,106749,Green Abalone,NA
+UCSB,SWATH,INVERT,HALKAM,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,kamtschatkana,Haliotis kamtschatkana,WoRMS,513165,Pinto Abalone,NA
+UCSB,SWATH,INVERT,HALRUF,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,rufescens,Haliotis rufescens,WoRMS,240767,Red Abalone,NA
+UCSB,SWATH,INVERT,HALSOR,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,sorenseni,Haliotis sorenseni,WoRMS,403965,White Abalone,NA
+UCSB,SWATH,INVERT,HALWAL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,walallensis,Haliotis walallensis,WoRMS,240774,Flat Abalone,NA
+UCSB,SWATH,INVERT,HENLEV,Animalia,Echinodermata,Asteroidea,Spinulosida,Echinasteridae,Henricia,leviuscula,Henricia leviuscula,WoRMS,240769,Blood Star,This species was counted on quadrats at southern California sites starting in 2000
+UCSB,QUAD,INVERT,HENLINREC,Animalia,Echinodermata,Asteroidea,Spinulosida/Valvatida,Echinasteridae/Ophidiasteridae,Henricia/Linckia,recruit,Henricia leviuscula/Linckia columbiae,WoRMS,371990,Blood Star,NA
+UCSB,FISH,FISH,HAZU,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Hermosilla,azurea,Hermosilla azurea,WoRMS,280137,Zebra-Perch Sea Chub,NA
+UCSB,FISH,FISH,HFRA,Animalia,Chordata,Elasmobranchii,Heterodontiformes,Heterodontidae,Heterodontus,francisci,Heterodontus francisci,WoRMS,275355,Horn Shark,NA
+UCSB,UPC,COVER,HETPAC,Animalia,Bryozoa,Stenolaemata,Cyclostomatida,Heteroporidae,Heteropora,pacifica,Heteropora pacifica,WoRMS,NA,Northern Staghorn Bryozoan,NA
+UCSB,FISH,FISH,HROS,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,rostratus,Heterostichus rostratus,WoRMS,151386,Giant Kelpfish,NA
+UCSB,FISH,FISH,HDEC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,decagrammus,Hexagrammos decagrammus,WoRMS,275696,Kelp Greenling,NA
+UCSB,FISH,FISH,HLAG,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,lagocephalus,Hexagrammos lagocephalus,WoRMS,240740,Rock Greenling,NA
+UCSB,FISH,FISH,HGRI,Animalia,Chordata,Elasmobranchii,Hexanchiformes,Hexanchidae,Hexanchus,griseus,Hexanchus griseus,WoRMS,240746,Sixgill shark,NA
+UCSB,UPC,COVER,HYDROID,Animalia,Cnidaria,Hydrozoa,NA,NA,NA,NA,Hydroid,WoRMS,NA,Hydroid,Aglaophenia struthenoides is distinguished and sampled separately
+UCSB,FISH,FISH,HANA,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,anale,Hyperprosopon anale,WoRMS,280162,Spotfin Surfperch,NA
+UCSB,FISH,FISH,HARG,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,argenteum,Hyperprosopon argenteum,WoRMS,273751,Walleye Surfperch,NA
+UCSB,FISH,FISH,HELL,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,ellipticum,Hyperprosopon ellipticum,WoRMS,277105,Silver Surfperch,NA
+UCSB,FISH,FISH,HCAR,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,caryi,Hypsurus caryi,WoRMS,275694,Rainbow Surfperch,NA
+UCSB,FISH,FISH,HRUB,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,rubicundus,Hypsypops rubicundus,WoRMS,272286,Garibaldi,NA
+UCSB,FISH,FISH,JZON,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Jordania,zonope,Jordania zonope,WoRMS,105820,Longfin Sculpin,"Cryptic, not sampled effectiively"
+UCSB,FISH,FISH,KSEI,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Kasatkia,seigeli,Kasatkia seigeli,WoRMS,275671,Six-Spot Prickleback,"Cryptic, not sampled effectiively"
+UCSB,QUAD,INVERT,KELKEL,Animalia,Mollusca,Gastropoda,Neogastropoda,Buccinidae,Kelletia,kelletii,Kelletia kelletii,WoRMS,144199,Kellet's Whelk,NA
+UCSB,QUAD,ALGAE,KELPJUV,Chromista,Ochrophyta,Phaeophyceae,Laminariales,NA,NA,NA,"Kelp Juvenile, Unidentified",PISCO,274841,"Kelp Juvenile, Unidentified",Laminarian recruits that are too small to identify to species.
+UCSB,QUAD,ALGAE,LAMSPJUV,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,spp juvenile,Laminaria,WoRMS,274841,Laminiaria juvenile,"May be L. farlowii or L. setchellii but at southern California sites, this is more likely to be Laminaria farlowii"
+UCSB,SWATH,ALGAE,LAMFAR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,farlowii,Laminaria farlowii,WoRMS,138050,Laminaria,This species was grouped as Laminaria spp. prior to 2002
+UCSB,SWATH,ALGAE,LAMSETAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,setchellii,Laminaria setchellii,WoRMS,445374,Laminaria,This species was grouped as Laminaria spp. prior to 2003
+UCSB,UPC,COVER,LAMHOLD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,NA,NA,NA,Laminariales Holdfast (Alive),PISCO,372515/503878,Laminariales Holdfast (Alive),This species group includes all Laminarian kelp holdfasts except Macrocystis pyrifera . This species group was sampled starting in 2000
+UCSB,FISH,FISH,LHIR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,hirundo,Leiocottus hirundo,WoRMS,281097,Lavender Sculpin,NA
+UCSB,FISH,FISH,LLEP,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lepidogobius,lepidus,Lepidogobius lepidus,WoRMS,281098,Bay Goby,"Cryptic, not sampled effectiively"
+UCSB,QUAD,INVERT,LEPHEXREC,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Leptasterias,hexactis recruit,Leptasterias hexactis,WoRMS,240750,Six Arm Star recruit,NA
+UCSB,SWATH,INVERT,LEPCHI,Animalia,Cnidaria,Anthozoa,Alcyonacea,Gorgoniidae,Leptogorgia,chilensis,Leptogorgia chilensis,WoRMS,240776,Red Gorgonian,This species was lumped into Gorgonian spp. on swath transects prior to 2004 and sampled in quadrats as Gorgonian spp. prior to 2003
+UCSB,FISH,FISH,LCON,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lethops,connectens,Lethops connectens,WoRMS,271856,"Kelp Goby, Halfblind Goby",Large groups of juveniles are sometimes encountered in the kelp canopy
+UCSB,SWATH,INVERT,LINCOL,Animalia,Echinodermata,Asteroidea,Valvatida,Ophidiasteridae,Linckia,columbiae,Linckia columbiae,WoRMS,240771,Fragile Star,NA
+UCSB,FISH,FISH,LMUC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,Liparis,mucosus,Liparis mucosus,WoRMS,1020317,Slimy Snailfish,"Cryptic, not sampled effectiively"
+UCSB,SWATH,INVERT,LOXSCY,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Loxorhynchus/Scyra,crispatus/acutifrons,Loxorhynchus crispatus/Scyra acutifrons,WoRMS,289935,"Decorator Crab, Moss Crab",Combined species group of Loxorhynchus crispatus and Scyra acutifrons. These species were grouped due to difficulty distinguishing them in the field
+UCSB,SWATH,INVERT,LOXGRA,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Loxorhynchus,grandis,Loxorhynchus grandis,WoRMS,367955,Sheep Crab,NA
+UCSB,SWATH,INVERT,LUIFOL,Animalia,Echinodermata,Asteroidea,Paxillosida,Luidiidae,Luidia,foliolata,Luidia foliolata,WoRMS,255040,Sand Star,NA
+UCSB,SWATH,INVERT,LYTPIC,Animalia,Echinodermata,Echinoidea,Camarodonta,Toxopneustidae,Lytechinus,pictus,Lytechinus pictus,WoRMS,NA,white urchin,NA
+UCSB,QUAD,FISH,LDAL,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lythrypnus,dalli,Lythrypnus dalli,WoRMS,274851,Bluebanded Goby,NA
+UCSB,QUAD,FISH,LZEB,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Lythrypnus,zebra,Lythrypnus zebra,WoRMS,274851,Zebra Goby,NA
+UCSB,SWATH,ALGAE,MACPYRAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,pyrifera,Macrocystis pyrifera,WoRMS,513378,Macrocystis,NA
+UCSB,QUAD,ALGAE,MACPYRJUV,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,pyrifera juvenile,Macrocystis pyrifera,WoRMS,274845,Giant Kelp,NA
+UCSB,FISH,FISH,MCAL,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,californiensis,Medialuna californiensis,WoRMS,240732,Halfmoon,NA
+UCSB,SWATH,INVERT,MEDAEQ,Animalia,Echinodermata,Asteroidea,Valvatida,Goniasteridae,Mediaster,aequalis,Mediaster aequalis,WoRMS,445308,Red Star,NA
+UCSB,SWATH,INVERT,MEGUND,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Megastraea,undosa,Megastraea undosa,WoRMS,405014,Wavy Turban Snail,NA
+UCSB,SWATH,INVERT,MEGCRE,Animalia,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Megathura,crenulata,Megathura crenulata,WoRMS,405012,Giant Key-Hole Limpet,NA
+UCSB,SWATH,INVERT,MESFRAAD,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Mesocentrotus,franciscanus,Mesocentrotus franciscanus,WoRMS,445357,Red Urchin adult,NA
+UCSB,SWATH,INVERT,METSPP,Animalia,Cnidaria,Anthozoa,Actiniaria,Metridiidae,Metridium,spp,Metridium,WoRMS,138050,White Plumed Anemones,NA
+UCSB,FISH,FISH,MMIN,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Micrometrus,minimus,Micrometrus minimus,WoRMS,240731,Dwarf Surfperch,NA
+UCSB,FISH,FISH,MMOL,Animalia,Chordata,Actinopterygii,Tetradontiformes,Molidae,Mola,mola,Mola mola,WoRMS,276694,Ocean Sunfish,NA
+UCSB,FISH,FISH,MCEP,Animalia,Chordata,Actinopterygii,Perciformes,Mugilidae,Mugil,cephalus,Mugil cephalus,WoRMS,281099,Mullet,NA
+UCSB,SWATH,INVERT,MURCAL,Animalia,Cnidaria,Anthozoa,Alcyonacea,Plexauridae,Muricea,californica,Muricea californica,WoRMS,445374,California Golden Gorgonian,This species was lumped into Gorgonian spp. on swath transects prior to 2004 and sampled in quadrats as Gorgonian spp. prior to 2003
+UCSB,SWATH,INVERT,MURFRU,Animalia,Cnidaria,Anthozoa,Alcyonacea,Plexauridae,Muricea,fruticosa,Muricea fruticosa,WoRMS,369117,Brown Gorgonian,This species was lumped into Gorgonian spp. on swath transects prior to 2004 and sampled in quadrats as Gorgonian spp. prior to 2003
+UCSB,FISH,FISH,MXEN,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Mycteroperca,xenarcha,Mycteroperca xenarcha,WoRMS,105833,Broomtail Grouper,NA
+UCSB,FISH,FISH,BRAY,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,californica,Myliobatis californica,WoRMS,NA,Bat Ray,"Sized in span of pectoral fins ('wingspan'), instead of total length."
+UCSB,UPC,COVER,MUSSEL,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,NA,Mytilus spp,WoRMS,372502,Mussel,This species group was sampled on UPC instead of quadrats starting in 2004.
+UCSB,SWATH,ALGAE,NEOFIM,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Agaraceae,Neoagarum,fimbriatum,Neoagarum fimbriatum,WoRMS,527885,Sieve/colander kelp,NA
+UCSB,SWATH,INVERT,NEOSPA,Animalia,Mollusca,Gastropoda,Littorinimorpha,Cypraeidae,Neobernaya,spadicea,Neobernaya spadicea,WoRMS,106738,Chestnut Cowrie,NA
+UCSB,FISH,FISH,NBLA,Animalia,Chordata,Actinopterygii,Perciformes,Chaenopsidae,Neoclinus,blanchardi,Neoclinus blanchardi,WoRMS,254521,Sarcastic Fringehead,NA
+UCSB,FISH,FISH,NSTE,Animalia,Chordata,Actinopterygii,Perciformes,Chaenopsidae,Neoclinus,stephensae,Neoclinus stephensae,WoRMS,281075,Yellowfin Fringehead,"Cryptic, not sampled effectiively"
+UCSB,FISH,FISH,NUNI,Animalia,Chordata,Actinopterygii,Perciformes,Chaenopsidae,Neoclinus,uninotatus,Neoclinus uninotatus,WoRMS,281130,Onespot Fringehead,"Cryptic, not sampled effectiively"
+UCSB,SWATH,ALGAE,NERLUE,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Nereocystis,luetkeana,Nereocystis luetkeana,WoRMS,591102,"Nereocystis, bull kelp",NA
+UCSB,FISH,FISH,NO_ORG,NA,NA,NA,NA,NA,NA,NA,No Organisms Present In This Sample,PISCO,240735,No Organisms Present In This Sample,NA
+UCSB,FISH,FISH,NCEP,Animalia,Chordata,Elasmobranchii,Hexanchiformes,Hexanchidae,Notorynchus,cepedianus,Notorynchus cepedianus,WoRMS,240735,Broadnose Sevengill Shark,NA
+UCSB,UPC,COVER,OCTOCORAL,Animalia,Cnidaria,Anthozoa,Alcyonacea,NA,NA,NA,Octocoral,PISCO,NA,Octocoral,NA
+UCSB,SWATH,INVERT,OCTOPUS,Animalia,Mollusca,Cephalopoda,Octopoda,Octopodidae,Octopus,spp,Octopus,WoRMS,286222,Octopus,NA
+UCSB,FISH,FISH,OELO,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Ophiodon,elongatus,Ophiodon elongatus,WoRMS,398459,Lingcod,NA
+UCSB,SWATH,INVERT,ORTKOE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Orthasterias,koehleri,Orthasterias koehleri,WoRMS,369177,Rainbow Star,NA
+UCSB,FISH,FISH,OTRI,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Orthonopias,triacis,Orthonopias triacis,WoRMS,281215,Snubnose Sculpin,"Cryptic, not sampled effectiively"
+UCSB,FISH,FISH,OCAL,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,californica,Oxyjulis californica,WoRMS,275798,Senorita,NA
+UCSB,FISH,FISH,OPIC,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,pictus,Oxylebius pictus,WoRMS,274772/274779/240737/274780,Painted Greenling,NA
+UCSB,SWATH,INVERT,PACFIM,Animalia,Cnidaria,Anthozoa,Spirularia,Cerianthidae,Pachycerianthus,fimbriatus,Pachycerianthus fimbriatus,WoRMS,550635,Burrowing Anemone,NA
+UCSB,UPC,COVER,PACRUB,Animalia,Echinodermata,Holothuroidea,Dendrochirotida,Sclerodactylidae,Pachythyone,rubra,Pachythyone rubra,WoRMS,NA,Red Sea Cucumber,Changed to superlayer starting in 2004. This species group was sampled as a Pachytheone rubra mat layer on UPC starting in 2004
+UCSB,QUAD,INVERT,HERMSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,NA,NA,Paguridae,WoRMS,NA,Hermit Crabs,NA
+UCSB,SWATH,INVERT,PANINT,Animalia,Arthropoda,Malacostraca,Decapoda,Palinuridae,Panulirus,interruptus,Panulirus interruptus,WoRMS,441602,Spiny Lobster,NA
+UCSB,FISH,FISH,PCLA,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,clathratus,Paralabrax clathratus,WoRMS,281292,"Kelp Bass, Calico Bass",NA
+UCSB,FISH,FISH,PMAC,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,maculatofasciatus,Paralabrax maculatofasciatus,WoRMS,281685,Spotted Sandbass,NA
+UCSB,FISH,FISH,PNEB,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,nebulifer,Paralabrax nebulifer,WoRMS,281687,Barred Sandbass,NA
+UCSB,FISH,FISH,PCAL,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,californicus,Paralichthys californicus,WoRMS,126160,California Halibut,NA
+UCSB,QUAD,INVERT,PARPHO,Animalia,Mollusca,Bivalvia,Myida,Pholadidae,Parapholas,californica,Parapholas californica,WoRMS,274713,Scaleside Piddock,This species group was split in 2003 from Chaceia/Parapholas spp.
+UCSB,SWATH,INVERT,PATMIN,Animalia,Echinodermata,Asteroidea,Valvatida,Asterinidae,Patiria,miniata,Patiria miniata,WoRMS,441601/441698,Bat Star,NA
+UCSB,QUAD,INVERT,PATMINREC,Animalia,Echinodermata,Asteroidea,Valvatida,Asterinidae,Patiria,miniata,Patiria miniata,WoRMS,283337,Bat Star recruit,NA
+UCSB,SWATH,ALGAE,PELPOR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Pelagophycus,porra,Pelagophycus porra,WoRMS,255048,Elkhorn Kelp,NA
+UCSB,UPC,COVER,PETMON,Animalia,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,Petaloconchus,montereyensis,Petaloconchus montereyensis,WoRMS,NA,Worm Snail,This species group was split in 2003 from Serpulorbis/Petaloconchus
+UCSB,UPC,COVER,BROWN,Chromista,Ochrophyta,Phaeophyceae,NA,NA,NA,NA,Phaeophyceae,WoRMS,441503,Brown Algae,"Any brown algae but not including Stephanocystis, Dictyoneurum, Egregia, Macrocystis, Laminariales, Sargassum, Desmarestia, and Dictyotales (these are distinguished and sampled separately). Typically consists of Colpomenia spp.."
+UCSB,FISH,FISH,PATR,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,atripes,Phanerodon atripes,WoRMS,281282,Sharpnose Surfperch,NA
+UCSB,FISH,FISH,PFUR,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,furcatus,Phanerodon furcatus,WoRMS,126983,White Surfperch,NA
+UCSB,FISH,FISH,PHOL,Animalia,Chordata,Actinopterygii,Perciformes,Pholidae,Pholidae,spp,Pholidae,WoRMS,127405,Gunnels,NA
+UCSB,UPC,COVER,PHRCAL,Animalia,Annelida,Polychaeta,NA,Sabellariidae,Phragmatopoma,californica,Phragmatopoma californica,WoRMS,NA,Colonial Sand Tube Worm,NA
+UCSB,UPC,COVER,PHYSPP,Plantae,Tracheophyta,Magnoliopsida,Alismatales,Cymodoceaceae,Phyllospadix,spp,Phyllospadix,WoRMS,801,Surfgrass,NA
+UCSB,QUAD,INVERT,PISREC,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,spp,Pisaster,WoRMS,1074819,Pisaster recruit,NA
+UCSB,SWATH,INVERT,PISBRE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,brevispinus,Pisaster brevispinus,WoRMS,368114,Short Spined Star,NA
+UCSB,SWATH,INVERT,PISGIG,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,giganteus,Pisaster giganteus,WoRMS,513378,Giant Spined Star,NA
+UCSB,SWATH,INVERT,PISOCH,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,ochraceus,Pisaster ochraceus,WoRMS,242160,Ochre Star,NA
+UCSB,FISH,FISH,PTRI,Animalia,Chordata,Elasmobranchii,Rajiformes,Rhinobatidae,Platyrhinoidis,triseriata,Platyrhinoidis triseriata,WoRMS,240745,Thornback,NA
+UCSB,FISH,FISH,PLEU,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronectidae,spp,Pleuronectidae,WoRMS,281679,Righteyed Flounders,NA
+UCSB,FISH,FISH,PCOE,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronichthys,coenosus,Pleuronichthys coenosus,WoRMS,274527,C-O Turbot,NA
+UCSB,SWATH,INVERT,POMGIB,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Pomaulax,gibberosus,Pomaulax gibberosus,WoRMS,503,Red Turban Snail,NA
+UCSB,FISH,FISH,PNOT,Animalia,Chordata,Actinopterygii,Batrachoidiformes,Batrachoididae,Porichthys,notatus,Porichthys notatus,WoRMS,240727,Plainfin Midshipman,NA
+UCSB,UPC,COVER,SPONGE,Animalia,Porifera,NA,NA,NA,NA,NA,Porifera,WoRMS,334501,Sponge,NA
+UCSB,FISH,FISH,PGLA,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Carcharhinidae,Prionace,glauca,Prionace glauca,WoRMS,281562,Blue Shark,NA
+UCSB,FISH,FISH,PFAL,Animalia,Chordata,Actinopterygii,Perciformes,Chaetodontidae,Prognathodes,falcifer,Prognathodes falcifer,WoRMS,281541,Scythemarked Butterflyfish,NA
+UCSB,FISH,FISH,PPRO,Animalia,Chordata,Elasmobranchii,Rajiformes,Rhinobatidae,Pseudobatos,productus,Pseudobatos productus,WoRMS,240745,Shovelnose Guitarfish,NA
+UCSB,SWATH,INVERT,PTESTE,Animalia,Mollusca,Bivalvia,Ostreida,Pteriidae,Pteria,sterna,Pteria sterna,WoRMS,591102,Pacific wing oyster,NA
+UCSB,SWATH,ALGAE,PTECALAD,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Pterygophora,californica,Pterygophora californica,WoRMS,382131,Pterygophora,NA
+UCSB,QUAD,ALGAE,PTECALJUV,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Pterygophora,californica,Pterygophora californica,WoRMS,274845,Pterygophora juvenile,NA
+UCSB,SWATH,INVERT,PUGFOL,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,foliata,Pugettia foliata,WoRMS,591102,Mimicking Crab,NA
+UCSB,SWATH,INVERT,PUGPRO,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,producta,Pugettia producta,WoRMS,100770,Northern Kelp Crab,NA
+UCSB,SWATH,INVERT,PUGRIC,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,richii,Pugettia richii,WoRMS,287556,Cryptic Kelp Crab,NA
+UCSB,SWATH,INVERT,PUGSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,spp,Pugettia spp,WoRMS,287562,Kelp Crab,NA
+UCSB,SWATH,INVERT,PYCHEL,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pycnopodia,helianthoides,Pycnopodia helianthoides,WoRMS,580674,Sunflower Star,NA
+UCSB,FISH,FISH,RBIN,Animalia,Chordata,Elasmobranchii,Rajiformes,Rajidae,Raja,binoculata,Raja binoculata,WoRMS,281935,Big Skate,NA
+UCSB,FISH,FISH,RSTE,Animalia,Chordata,Elasmobranchii,Rajiformes,Rajidae,Raja,stellulata,Raja stellulata,WoRMS,282054,Starry Skate,NA
+UCSB,FISH,FISH,RALL,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Rathbunella,alleni,Rathbunella alleni,WoRMS,240743,Stripefin Ronquil,NA
+UCSB,FISH,FISH,RHYP,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Rathbunella,hypoplecta,Rathbunella hypoplecta,WoRMS,274852/274795/274817,Smooth Ronquil,NA
+UCSB,UPC,COVER,BUSHY00,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Alga With Cylindrical Branches. Definition Used In 2000,PISCO,283440,Red Alga With Cylindrical Branches. Definition Used In 2000,"Branching, cylindrical in cross-section. In 1999 this species group only included Botryocladia pseudodichotoma"
+UCSB,UPC,COVER,ENCRED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae -Encrusting,PISCO,NA,Red Algae -Encrusting,Encrusting non-coralline red algae.
+UCSB,UPC,COVER,BRANCH,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Branching Flat Blade),PISCO,240756,Red Algae (Branching Flat Blade),"Branching, flat in cross-section. In 1999 this species group only included Rhodymenia spp."
+UCSB,UPC,COVER,BUSHY,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Cylindrical Branches),PISCO,170942,Red Algae (Cylindrical Branches),"Branching, cylindrical in cross-section. In 1999 this species group only included Botryocladia pseudodichotoma"
+UCSB,UPC,COVER,LACY,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Lacy Branching),PISCO,144061,Red Algae (Lacy Branching),"Any red algae that is filamentous or finely, densely branched.. This species group was sampled starting in 2001"
+UCSB,UPC,COVER,LEAFY,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Algae (Leaf-Like),PISCO,839,Red Algae (Leaf-Like),Any red alga that consists of single or multiple blades that have entire margins and do not branch past the basal portions.. This species group was sampled starting in 2000
+UCSB,UPC,COVER,TURF,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Filamentous Turf,PISCO,NA,Red Filamentous Turf,Dense turf of red filamentous algae < 2cm high. This species group was sampled starting in 2002
+UCSB,UPC,COVER,ERECTRED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,Red Fleshy Algae,PISCO,283836,Red Fleshy Algae,Any upright fleshy red algae.
+UCSB,FISH,FISH,RTOX,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,toxotes,Rhacochilus toxotes,WoRMS,282290,Rubberlip Surfperch,NA
+UCSB,FISH,FISH,RVAC,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,vacca,Rhacochilus vacca,WoRMS,273374,Pile Surfperch,NA
+UCSB,QUAD,FISH,RNIC,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,nicholsii,Rhinogobiops nicholsii,WoRMS,125566,Blackeye Goby,This species is counted on swath transects at northern California sites
+UCSB,FISH,FISH,RJOR,Animalia,Chordata,Actinopterygii,Perciformes,Bathymasteridae,Ronquilus,jordani,Ronquilus jordani,WoRMS,274852/274795,Northern Ronquil,NA
+UCSB,UPC,COVER,SALTRI,Animalia,Annelida,Polychaeta,Sabellida,Serpulidae,Salmacina,tribranchiata,Salmacina tribranchiata,WoRMS,718279,Fragile Tube Worms,"This species was sampled individually at southern California sites starting in 2000 and northern California sites starting in 2004. Previously this was in the species group ""tubeworm""."
+UCSB,FISH,FISH,SCHI,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Sarda,chiliensis chiliensis,Sarda chiliensis chiliensis,WoRMS,1043469,Eastern Pacific Bonito,NA
+UCSB,FISH,FISH,SSAG,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sardinops,sagax,Sardinops sagax,WoRMS,274791,Pacific Sardine,NA
+UCSB,UPC,COVER,SARSPP,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,spp,Sargassum,WoRMS,NA,Sargassum,"After 2009, species were ID'd and counted separately. Records prior in the Northern Channel Islands were most likely S. muticum.."
+UCSB,UPC,COVER,SARHOR,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,horneri,Sargassum horneri,WoRMS,1337,Invasive Sargassum,BROWN ALGAE
+UCSB,UPC,COVER,SARMUT,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,muticum,Sargassum muticum,WoRMS,NA,Sargassum,"UCSB began distinguishing S. muticum and S. filicinum, originally lumped as SARSPP in 2010"
+UCSB,UPC,COVER,SCALLOP,Animalia,Mollusca,Bivalvia,Pectinida,NA,NA,NA,Scallop,PISCO,232231,Scallop,Any attached (non-moble) scallop.
+UCSB,FISH,FISH,SJAP,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Scomber,japonicus,Scomber japonicus,WoRMS,282576,"Pacific Mackerel, Greenback Mackerel",NA
+UCSB,FISH,FISH,SGUT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,guttata,Scorpaena guttata,WoRMS,271583,California Scorpionfish,NA
+UCSB,FISH,FISH,SMAR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Scorpaenichthys,marmoratus,Scorpaenichthys marmoratus,WoRMS,273978,Cabezon,NA
+UCSB,FISH,FISH,SEBSPP,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,spp,Sebastes,WoRMS,282556,"Rockfish, Unidentified Sp.",NA
+UCSB,FISH,FISH,SATR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,atrovirens,Sebastes atrovirens,WoRMS,125550,Kelp Rockfish,NA
+UCSB,FISH,FISH,KGB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"atrovirens,carnatus,chrysomelas,caurinus",Sebastes atrovirens/carnatus/chrysomelas/caurinus,WoRMS,269206,"Kelp, Gopher, Black And Yellow, and Copper Rockfish Young of Year","This species group includes Sebastes atrovirens, S. carnatus, S. chrysomelas, S. caurinus (Kelp/Gopher/Black and Yellow/Copper)."
+UCSB,FISH,FISH,SAUR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,auriculatus,Sebastes auriculatus,WoRMS,125579,Brown Rockfish,NA
+UCSB,FISH,FISH,SCAR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,carnatus,Sebastes carnatus,WoRMS,282058,Gopher Rockfish,NA
+UCSB,FISH,FISH,SCARSCAU,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"carnatus, caurinus",Sebastes carnatus/caurinus,WoRMS,282059,"Gopher, Copper Rockfish Young Of Year",NA
+UCSB,FISH,FISH,SCAU,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,caurinus,Sebastes caurinus,WoRMS,275658,Copper Rockfish,NA
+UCSB,FISH,FISH,SCHR,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,chrysomelas,Sebastes chrysomelas,WoRMS,282280,Black And Yellow Rockfish,NA
+UCSB,FISH,FISH,GBY,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,chrysomelas/carnatus young of year,Sebastes chrysomelas/carnatus,WoRMS,158786,Gopher and Black And Yellow Rockfish Young of Year,Consists of Gopher/Black and Yellow/Copper YOYs that are old enough to be distinguished from Kelp rockfish (subset of KGB YOYs).
+UCSB,FISH,FISH,SDAL,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,dallii,Sebastes dallii,WoRMS,282555,Calico Rockfish,NA
+UCSB,FISH,FISH,SDIP,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,diploproa,Sebastes diploproa,WoRMS,271572,Spitnose Rockfish,NA
+UCSB,FISH,FISH,SENT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,entomelas,Sebastes entomelas,WoRMS,282629,Widow Rockfish,NA
+UCSB,FISH,FISH,SHOP,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,hopkinsi,Sebastes hopkinsi,WoRMS,282575,Squarespot Rockfish,NA
+UCSB,FISH,FISH,SMEL,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,melanops,Sebastes melanops,WoRMS,274772,Black Rockfish,NA
+UCSB,FISH,FISH,SMIN,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,miniatus,Sebastes miniatus,WoRMS,274773,Vermilion Rockfish,NA
+UCSB,FISH,FISH,SMYS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,mystinus,Sebastes mystinus,WoRMS,274779,Blue Rockfish,NA
+UCSB,FISH,FISH,SNEB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,nebulosus,Sebastes nebulosus,WoRMS,274779/274780,China Rockfish,NA
+UCSB,FISH,FISH,SPAU,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,paucispinis,Sebastes paucispinis,WoRMS,274780,Bocaccio,NA
+UCSB,FISH,FISH,SPIN,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,pinniger,Sebastes pinniger,WoRMS,273810,Canary Rockfish,NA
+UCSB,FISH,FISH,SRAS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,rastrelliger,Sebastes rastrelliger,WoRMS,274786,Grass Rockfish,NA
+UCSB,FISH,FISH,SROS,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,rosaceus,Sebastes rosaceus,WoRMS,274787,Rosy Rockfish,NA
+UCSB,FISH,FISH,SRUB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,rubrivinctus,Sebastes rubrivinctus,WoRMS,126175,Flag Rockfish,NA
+UCSB,FISH,FISH,SSAX,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,saxicola,Sebastes saxicola,WoRMS,282884,Stripetail Rockfish,NA
+UCSB,FISH,FISH,SSEM,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,semicinctus,Sebastes semicinctus,WoRMS,274713,Halfbanded Rockfish,NA
+UCSB,FISH,FISH,OYT,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"serranoides,flavidus",Sebastes serranoides/flavidus,WoRMS,281457,Olive Or Yellowtail Rockfish,This species group includes Sebastes serranoides and Sebastes flavidus (Olive/Yellowtail).
+UCSB,FISH,FISH,OYB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,"serranoides,flavidus,melanops",Sebastes serranoides/flavidus/melanops,WoRMS,240723,"Olive, Yellowtail, and Black Rockfish Young Of Year","This species group includes S. serranoides, S. flavidus, S. melanops (Olive/Yellowtail/Black) ."
+UCSB,FISH,FISH,STRE,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,serriceps,Sebastes serriceps,WoRMS,127022,Treefish,NA
+UCSB,FISH,FISH,SUMB,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,umbrosus,Sebastes umbrosus,WoRMS,272132,Honeycomb Rockfish,NA
+UCSB,UPC,COVER,MUD,NA,NA,NA,NA,NA,NA,NA,Sediment/Mud,PISCO,327435,Sediment/Mud,NA
+UCSB,FISH,FISH,SPUL,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,pulcher,Semicossyphus pulcher,WoRMS,240737,California Sheephead,NA
+UCSB,FISH,FISH,SLAL,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Seriola,lalandi,Seriola lalandi,WoRMS,105923,Yellowtail,NA
+UCSB,UPC,COVER,SHELL,NA,NA,NA,NA,NA,NA,NA,Shell Debris,PISCO,529582,Shell Debris,NA
+UCSB,FISH,FISH,SARG,Animalia,Chordata,Actinopterygii,Perciformes,Sphyraenidae,Sphyraena,argentea,Sphyraena argentea,WoRMS,105801,California Barracuda,NA
+UCSB,FISH,FISH,SACA,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,acanthias,Squalus acanthias,WoRMS,240730,Spiny Dogfish,NA
+UCSB,FISH,FISH,SCAL,Animalia,Chordata,Elasmobranchii,Squatiniformes,Squatinidae,Squatina,californica,Squatina californica,WoRMS,282058,Pacific Angel Shark,NA
+UCSB,UPC,COVER,STEOSM,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Stephanocystis,osmundacea,Stephanocystis osmundacea,WoRMS,370041,chain-bladder kelp,NA
+UCSB,SWATH,ALGAE,STEOSMAD,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Stephanocystis,osmundacea,Stephanocystis osmundacea,WoRMS,581670,chain-bladder kelp adult,NA
+UCSB,FISH,FISH,SGIG,Animalia,Chordata,Actinopterygii,Perciformes,Polyprionidae,Stereolepis,gigas,Stereolepis gigas,WoRMS,282580,Giant Sea Bass,NA
+UCSB,FISH,FISH,STICH,Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Stichaeidae,spp,Stichaeidae,WoRMS,274800,Pricklebacks,NA
+UCSB,SWATH,INVERT,STRPURAD,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,purpuratus,Strongylocentrotus purpuratus,WoRMS,283820,Purple Urchin adult,adult > 2.5cm.
+UCSB,QUAD,INVERT,STRPURREC,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,purpuratus,Strongylocentrotus purpuratus,WoRMS,403965,Purple Urchin recruit,NA
+UCSB,SWATH,INVERT,STYMON,Animalia,Chordata,Ascidiacea,Stolidobranchia,Styelidae,Styela,montereyensis,Styela montereyensis,WoRMS,240757,Stalked Tunicate,NA
+UCSB,UPC,COVER,STYPAP,Animalia,Cnidaria,Hydrozoa,Anthoathecata,Stylasteridae,Stylantheca,papillosa,Stylantheca papillosa,WoRMS,494791,Encrusting Purple Hydrocoral,NA
+UCSB,UPC,COVER,STYCAL,Animalia,Cnidaria,Hydrozoa,Anthoathecata,Stylasteridae,Stylaster,californicus,Stylaster californicus,WoRMS,334720,California Hydrocoral,This species was sampled on UPC at southern California sites starting in 2000 and at northern California sites starting in 2001. Stylaster californica was also sampled on swath transects at northern California sites.
+UCSB,SWATH,INVERT,STYFOR,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Stylasterias,forreri,Stylasterias forreri,WoRMS,382131,Velcro Star,NA
+UCSB,FISH,FISH,SYRI,Animalia,Chordata,Actinopterygii,Scorpaeniformes/Gobiesociformes,Cottidae/Gobiesocidae,Synchirus/Rimicola,spp,Synchirus/Rimicola,WoRMS,282726,Manacled Sculpin/Kelp Clingfish,"Cryptic, not sampled effectiively. Combined species group of Synchirus gilli and Rimicola muscarum. These species are combined due to difficulty in identification in the field"
+UCSB,FISH,FISH,SYNG,Animalia,Chordata,Actinopterygii,Syngnathiformes,Syngnathidae,Syngnathus,spp,Syngnathus,WoRMS,274815,Pipefish,NA
+UCSB,FISH,FISH,SLUC,Animalia,Chordata,Actinopterygii,Aulopiformes,Synodontidae,Synodus,lucioceps,Synodus lucioceps,WoRMS,105923,California Lizardfish,NA
+UCSB,SWATH,INVERT,TALNUT,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Taliepus,nuttallii,Taliepus nuttallii,WoRMS,240758,Southern Kelp Crab,NA
+UCSB,SWATH,INVERT,TEGREG,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,regina,Tegula regina,WoRMS,240758,Queen Tegula,NA
+UCSB,QUAD,INVERT,TEGSPP,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,spp,Tegula spp,WoRMS,367969,Turban snail,NA
+UCSB,SWATH,INVERT,TETCAL,Animalia,Porifera,Demospongiae,Tethyida,Tethyidae,Tethya,californiana,Tethya californiana,WoRMS,240754,Orange Puff-Ball Sponge,NA
+UCSB,FISH,FISH,TCAL,Animalia,Chordata,Elasmobranchii,Torpediniformes,Torpedinidae,Tetronarce,californica,Tetronarce californica,WoRMS,274817,Pacific Electric Ray,NA
+UCSB,UPC,COVER,THYSQU,Animalia,Mollusca,Gastropoda,Littorinimorpha,Vermetidae,Thylacodes,squamigerus,Thylacodes squamigerus,WoRMS,144132,"Tube Snail, Scaled Worm Shell",This species group was split in 2003 from Serpulorbis/Petaloconchus
+UCSB,FISH,FISH,TSYM,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Trachurus,symmetricus,Trachurus symmetricus,WoRMS,274823,Jack Mackerel,NA
+UCSB,FISH,FISH,TSEM,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,semifasciata,Triakis semifasciata,WoRMS,274820,Leopard Shark,NA
+UCSB,UPC,COVER,TUBEWORM,Animalia,Annelida,Polychaeta,NA,NA,NA,NA,Tubeworm,PISCO,NA,Tubeworm,"Any tube worm (spirorbids, sabellids, serpulids, terrebelids) not otherwise classified. Dodecacaria, Salmacina, Diopatra or Phragmatopoma are sampled separately"
+UCSB,UPC,COVER,TUBEMAT,Animalia,Annelida,Polychaeta,NA,NA,NA,NA,Tubeworm mat,PISCO,NA,Tubeworm mat,This species group was sampled starting in 2002
+UCSB,UPC,COVER,COMTUN,Animalia,Chordata,Ascidiacea,NA,NA,NA,NA,"Tunicate -Colonial,Compund,Social",PISCO,283441,"Tunicate -Colonial,Compund,Social","Includes Clavelina huntsmani, Distaplia occidentalis, Pycnoclavella stanleyi, Metandrocarpa spp. Didemnum carnulentum, Botrylloides spp., Archidistoma molle, Polyclinum planum."
+UCSB,UPC,COVER,SOLTUN,Animalia,Chordata,Ascidiacea,NA,NA,NA,NA,Tunicate -Solitary,PISCO,549434,Tunicate -Solitary,"Includes Corella willmeriana, Ascidia paratropa, Cnemidocarpa finmarkiensis, Styela montereyensis, Boltenia villosa, Halocynthia aurantia, Pyura haustor."
+UCSB,SWATH,INVERT,MEGSPP,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Megastrea/Lithopoma/Pomaulax/Astraea,spp,Turbinidae,WoRMS,445325,Turban Snail,NA
+UCSB,UPC,COVER,SB00RED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,"UCSB 2000 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Bushy, Leafy, Crucor And Erecor",PISCO,NA,"UCSB 2000 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Bushy, Leafy, Crucor And Erecor",NA
+UCSB,UPC,COVER,SCSB99RED,Plantae,Rhodophyta,NA,NA,NA,NA,NA,"UCSC and UCSB 1999 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Crucor And Erecor",PISCO,138228,"UCSC and UCSB 1999 Definition Of 'Other Red' Included All Red Algae Except Rhospp, Crucor And Erecor",NA
+UCSB,FISH,FISH,USAN,Animalia,Chordata,Actinopterygii,Perciformes,Pholidae,Ulvicola,sanctaerosae,Ulvicola sanctaerosae,WoRMS,274836,Kelp Gunnel,NA
+UCSB,SWATH,ALGAE,UNDPIN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Undaria,pinnatifida,Undaria pinnatifida,WoRMS,240747,Undaria,First observed in Northern Channel Islands in 2016.
+UCSB,FISH,FISH,UNID,Animalia,Chordata,NA,NA,NA,NA,NA,Unidentified Fish,PISCO,274833,Unidentified Fish,NA
+UCSB,FISH,FISH,UHAL,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Urotrygonidae,Urolophus,halleri,Urolophus halleri,WoRMS,274824,Haller's Round Ray,NA
+UCSB,SWATH,INVERT,URTSPP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,spp,Urticina,WoRMS,240779,Urticina Spp.,NA
+UCSB,SWATH,INVERT,URTCOL,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,columbiana,Urticina columbiana,WoRMS,381961,McPeak's Anemone,NA
+UCSB,SWATH,INVERT,URTCOLMCP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,columbiana/mcpeaki,Urticina columbiana/mcpeaki,WoRMS,369053,Sand-Rose/McPeak's Anemone,NA
+UCSB,SWATH,INVERT,URTCOR,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,coriacea,Urticina coriacea,WoRMS,851288,Stubby Rose Anemone,NA
+UCSB,SWATH,INVERT,URTCRA,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,crassicornis,Urticina crassicornis,WoRMS,240780,Christmas Anemone,"Formerly U. crassicornis, now classified as grebelnyi"
+UCSB,SWATH,INVERT,URTMCP,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,mcpeaki,Urticina mcpeaki,WoRMS,441490,Sand-Rose Anemone,NA
+UCSB,SWATH,INVERT,URTPIS,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Urticina,piscivora,Urticina piscivora,WoRMS,441490,Fish-Eating Anemone,NA
+UCSB,UPC,COVER,WATSUB,Animalia,Bryozoa,Gymnolaemata,Cheilostomatida,Watersiporidae,Watersipora,subtorquata,Watersipora subtorquata,WoRMS,558,Invasive bryozoan,NA
+UCSB,FISH,FISH,ZROS,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Zalembius,rosaceus,Zalembius rosaceus,WoRMS,282753,Pink Surfperch,NA
+UCSB,FISH,FISH,ZEXA,Animalia,Chordata,Elasmobranchii,Rajiformes,Rhinobatidae,Zapteryx,exasperata,Zapteryx exasperata,WoRMS,282753,Banded Guitarfish,NA
