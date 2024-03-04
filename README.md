@@ -1,6 +1,6 @@
 # Code supporting manuscript by Srednick & Swearer in Nature Ecology & Evolution
 
-**Title: Understanding diversity-synchrony-stability relationships in multitrophic communities".**
+**Title: Understanding diversity-synchrony-stability relationships in multitrophic communities.**
 
 **Nature Ecology & Evolution 2024 - DOI: XXXX**
 
