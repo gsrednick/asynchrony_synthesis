@@ -23,6 +23,7 @@ library(vegan)
 library(lme4)
 library(lmerTest)
 library(ggeffects)
+library(kableExtra)
 
 # Lavaan model performance
 library(performance)
@@ -735,7 +736,7 @@ sem_path_temperate<-
 ## Figure 4 ####
 multi_sem_plot<- sem_path_tropical + sem_path_temperate + plot_layout(guides = "collect") & theme(legend.position = "bottom")
 
-ggsave("./Figures/New_MS_figs/SEM_plot_R2.pdf",
+ggsave("./Figures/SEM_plot_R2.pdf",
        plot = multi_sem_plot,
        width = 10,
        height =6)
@@ -856,7 +857,7 @@ stability_plot<-ggplot(multi_SEM_df,aes(x = system, y= log(stability+1), fill = 
 
 comparison_plot<-diversity_plot + synchrony_plot + stability_plot + plot_layout(guides = "collect") & theme(legend.position = "top")
 
-ggsave("./Figures/New_MS_figs/comparison_plot_V2.pdf",
+ggsave("./Figures/comparison_plot_V2.pdf",
        plot = comparison_plot,
        width = 9,
        height =3.8)
@@ -1189,7 +1190,7 @@ annotate("text", x = 1.5, y= 3, hjust = 0,label = combined_annotation_temper_rch
 
 multi_sem_plot_rch<- sem_path_tropical_rch + sem_path_temperate_rch + plot_layout(guides = "collect") & theme(legend.position = "bottom")
 
-ggsave("./Figures/New_MS_figs/SEM_plot_richness_R2.pdf",
+ggsave("./Figures/SEM_plot_richness_R2.pdf",
        plot = multi_sem_plot_rch,
        width = 10,
        height =6)
@@ -1484,7 +1485,7 @@ sem_path_temperate_troph<-
 
 trophic_sem_plot<- sem_path_trop_troph + sem_path_temperate_troph + plot_layout(guides = "collect") & theme(legend.position = "bottom")
 
-ggsave("./Figures/New_MS_figs/SEM_plot_trophic_R2.pdf",
+ggsave("./Figures/SEM_plot_trophic_R2.pdf",
        plot = trophic_sem_plot,
        width = 10,
        height =6)

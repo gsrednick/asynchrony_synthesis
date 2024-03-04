@@ -51,7 +51,7 @@ P1_bar<-trophic_lit %>%
 
 
 
-ggsave("./Figures/pie/P1_bar.pdf",
+ggsave("./Figures/Figure_1/P1_bar.pdf",
        plot=P1_bar,
        width = 1.5,
        height = 4)
@@ -80,7 +80,7 @@ P2_A<-trophic_lit %>%
         legend.position = "none")
 
 
-ggsave("./Figures/pie/P2_A.pdf",
+ggsave("./Figures/Figure_1/P2_A.pdf",
        plot=P2_A,
        width = 6,
        height = 4)
@@ -113,7 +113,7 @@ g <- ggplot_build(P2_B)
 unique(g$data[[1]]["fill"])
 
 
-ggsave("./Figures/pie/P2_B.pdf",
+ggsave("./Figures/Figure_1/P2_B.pdf",
        plot=P2_B,
        width = 6,
        height = 4)
@@ -121,7 +121,7 @@ ggsave("./Figures/pie/P2_B.pdf",
 # Combine
 P2<-P2_A + P2_B + plot_layout(nrow = 2) 
 
-ggsave("./Figures/pie/P2.pdf",
+ggsave("./Figures/Figure_1/P2.pdf",
        plot=P2,
        width = 5,
        height = 8)
@@ -173,7 +173,7 @@ mono_div_bar<-trophic_lit %>%
         legend.position = "none") +  
   removeGrid() 
 
-ggsave("./Figures/vis_abstract/mono_div_bar.pdf",
+ggsave("./Figures/Figure_1/mono_div_bar.pdf",
        plot=mono_div_bar,
        width = 1.5,
        height = 4)
@@ -209,7 +209,7 @@ multi_div_bar<-trophic_lit %>%
         legend.position = "none") +  
   removeGrid() 
 
-ggsave("./Figures/vis_abstract/multi_div_bar.pdf",
+ggsave("./Figures/Figure_1/multi_div_bar.pdf",
        plot=multi_div_bar,
        width = 1.5,
        height = 4)
@@ -262,7 +262,7 @@ mono_bar_vert<-trophic_lit_upd %>%
   removeGrid() 
 
 
-ggsave("./Figures/vis_abstract/mono_bar_vert.pdf",
+ggsave("./Figures/Figure_1/mono_bar_vert.pdf",
        plot=mono_bar_vert,
        width = 1.5,
        height = 4)
@@ -308,7 +308,7 @@ multi_bar_vert<-multi_bar_vert_df %>%
 
 
 
-ggsave("./Figures/vis_abstract/multi_bar_vert.pdf",
+ggsave("./Figures/Figure_1/multi_bar_vert.pdf",
        plot=multi_bar_vert,
        width = 1.5,
        height = 4)
@@ -391,7 +391,7 @@ ggsave("./Figures/Figure_S2.pdf",
        height = 8)
 
 
-ggsave("./Figures/New_MS_figs/REV_figs/MS/Figure_S2.pdf",
+ggsave("./Figures/MS/Figure_S2.pdf",
        plot=exp_plot_V2,
        width = 4,
        height = 8)
@@ -608,12 +608,12 @@ multi_comparison<-multi_response_system + multi_response_org + plot_layout(ncol 
   
 mono_multi_comparison<-mono_comparison / multi_comparison + plot_layout(ncol = 1)
 
-ggsave("./Figures/New_MS_figs/REV_figs/MS/Figure_S3.pdf",
+ggsave("./Figures/Figure_S3.pdf",
        plot=mono_multi_comparison,
        width = 10,
        height = 8)
 
-ggsave("./Figures/New_MS_figs/REV_figs/MS/Figure_S3.png",
+ggsave("./Figures/Figure_S3.png",
        plot=mono_multi_comparison,
        width = 10,
        height = 8)
