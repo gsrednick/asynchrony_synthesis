@@ -514,6 +514,7 @@ trop_multi_SEM_df$algae_Andiv_scale<-trop_multi_SEM_df$algae_Andiv_scale[,1]
 #leveneTest(algae_Andiv_scale ~ dataset, data=trop_multi_SEM_df) # good, this works
 
 
+
 # Main model
 multi_model_trop<-sem(mult_SEM_model,
                       data = trop_multi_SEM_df, # changed to use a dataframe with no NAs
@@ -753,7 +754,7 @@ ggsave("./Figures/SEM_plot_R2.pdf",
 
 
 # diversity across groups and datasets
-lmer_div<-lmer(diversity~group * system + (1|dataset), diversity_comp_df) # old, pre change
+lmer_div<-lmer(diversity~group * system + (1|dataset), diversity_comp_df)
 
 summary(lmer_div)
 anova(lmer_div)
@@ -834,6 +835,9 @@ diversity_plot<-ggplot(diversity_comp_df,aes(x = group, y= diversity, fill = sys
   labs(x = "Trophic group", y = "H'") +
   scale_x_discrete(labels = c("algae","herbivores"))+
   removeGrid()
+
+
+
 
 synchrony_plot<-ggplot(synchrony_comp_df,aes(x = group, y= synchrony, fill = system)) +
   geom_boxplot(alpha = 0.4) +
@@ -973,6 +977,7 @@ stability_log ~ consumer_sync_log + algae_sync_log + algae_Anrich_log + consumer
 '
 
 ## Tropical - good model ####
+
 multi_model_RCH_trop<-sem(mult_SEM_RCH_model,
                           data = trop_multi_SEM_df, # changed to use a dataframe with no NAs
                           estimator = "ML",

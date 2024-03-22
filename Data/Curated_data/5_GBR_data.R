@@ -13,9 +13,6 @@ load("./Data/GBR/orig.ltmp.RData")
 load("./Data/GBR/all.benthic.22.RData")
 load("./Data/GBR/com_.desc.RData")
 
-
-
-
 # will have to filter benthic for just "MA_XX" functional groups
 ltmp_algae<-all.benthic.22 %>% filter(str_detect(COMP_2021, "MA_")| COMP_2021 %in% c("TA","CA")) # filter for algae only
 dim(ltmp_algae)
@@ -55,6 +52,15 @@ names(LTMP_algae_ready)<-c("REEF_NAME","REPORT_YEAR","SITE_NO","species","cover"
 ltmp_fish<- orig.ltmp %>% filter(FUNC_GRP == "herbivore")
 dim(ltmp_fish)
 
+unique(ltmp_fish$P_CODE)
+
+# Check if both methods were used
+ltmp_method_check<-ltmp_fish %>% 
+  group_by(REEF_NAME,SAMPLE_TYPE,REPORT_YEAR) %>%
+  reframe() %>%
+  group_by(REEF_NAME,REPORT_YEAR) %>%
+  dplyr::summarise(count = n()) # only an issue at HAYMAN ISLAND REEF in the first year -- not an issue
+
 
 
 ltmp_fish_red<-ltmp_fish %>% 
@@ -85,9 +91,18 @@ LTMP_data_almostready$system = "tropical"
 LTMP_data_almostready$dataset = "GBR-LTMP"
 
 
+
+
+LTMP_data_almostready_fishmethod_adj<-LTMP_data_almostready %>% filter(!(str_detect(site,"HAYMAN ISLAND REEF") & year == "1995"))
+dim(LTMP_data_almostready_test)
+dim(LTMP_data_almostready)
+
+LTMP_data_almostready_test
 length(unique(LTMP_data_almostready$site))
 
-LTMP_data_ready<-LTMP_data_almostready %>% ungroup() %>% select(-c(REEF_NAME,SITE_NO))
+LTMP_data_ready<-LTMP_data_almostready_fishmethod_adj %>% ungroup() %>% select(-c(REEF_NAME,SITE_NO))
+
+
 
 # data ready 
 write.csv(LTMP_data_ready,"./Data/Curated_data/5_GBR_data.csv", row.names = F)
@@ -104,6 +119,13 @@ LTMP_data_ready %>%
 LTMP_data_ready %>%                    
   group_by(mode) %>%          
   summarise(Unique_Elements = n_distinct(species))
+
+LTMP_data_ready %>%
+  ggplot(aes(x = year, y = site, color = mode)) +
+           geom_point() +
+  facet_grid(~mode)
+
+
 
 LTMP_species<-data.frame(species = unique(LTMP_data_ready$species))
 
