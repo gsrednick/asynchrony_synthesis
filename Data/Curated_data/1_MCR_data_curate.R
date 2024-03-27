@@ -34,18 +34,22 @@ MCR_herbivores$Year<-as.numeric(MCR_herbivores$Year)
 unique(MCR_fish$Coarse_Trophic)
 
 # Curate algae
-not_of_interest<-c("No data","Ascidian","Sand","Coral","Soft Coral","Shell Debris","Bare Space","Coral Rubble","Sponge","")
+not_of_interest<-c("No data","Ascidian","Sand","Coral","Soft Coral","Shell Debris","Bare Space",
+                   "Coral Rubble","Sponge","Millepora platyphylla","Corallimorpharia","Tridacna sp.","")
+
 
 MCR_algae_upd<-MCR_algae %>% 
-  mutate(Habitat = recode(Habitat,"Fringing" = "FR",
-                                      "Outer 10" = "FO",
-                                      "Backreef" = "BA")) %>%
-  mutate(Site = recode(Site,"LTER 1" = "1",
-                       "LTER 2" = "2",
-                       "LTER 3" = "3",
-                       "LTER 4" = "4",
-                       "LTER 5" = "5",
-                       "LTER 6" = "6"))
+  mutate(Habitat = recode_factor(Habitat,Fringing = "FR",
+                                      `Outer 10` = "FO",
+                                      Backreef = "BA")) %>%
+  mutate(Site = recode_factor(Site,"LTER 1" = "1",
+                       `LTER 2` = "2",
+                       `LTER 3` = "3",
+                       `LTER 4` = "4",
+                       `LTER 5` = "5",
+                       `LTER 6` = "6"))
+
+# Filtered for 10m sites -- corresponding fish data adjacent to transects at similar depth (~12m)
 
 MCR_algae_red<-MCR_algae_upd %>% 
   filter(!Taxonomy_Substrate_Functional_Group %in% not_of_interest,
@@ -57,15 +61,17 @@ MCR_algae_red<-MCR_algae_upd %>%
 
 MCR_algae_red$Year<-as.numeric(MCR_algae_red$Year)
 
-unique(MCR_algae_red$Taxonomy_Substrate_Functional_Group)
+MCR_algaespecies_list<-data.frame(unique(MCR_algae_red$Taxonomy_Substrate_Functional_Group))
 
 
 # Inverts
+# Filtered for 10m sites -- corresponding fish data adjacent to transects at similar depth (~12m)
+
 MCR_invert_upd<-MCR_invert %>% 
-  mutate(Habitat = recode(Habitat,"Fringing" = "FR",
+  mutate(Habitat = recode_factor(Habitat,"Fringing" = "FR",
                           "Outer 10" = "FO",
                           "Backreef" = "BA")) %>%
-  mutate(Site = recode(Site,"LTER 1" = "1",
+  mutate(Site = recode_factor(Site,"LTER 1" = "1",
                        "LTER 2" = "2",
                        "LTER 3" = "3",
                        "LTER 4" = "4",
@@ -173,3 +179,4 @@ MCR_data_ready %>%
   summarise(Unique_Elements = n_distinct(species))
 
 # END # 
+

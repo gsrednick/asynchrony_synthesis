@@ -59,15 +59,17 @@ ggsave("./Figures/Figure_1/P1_bar.pdf",
 
 # Figure 1B - Monotrophic organizational scale  
 
-P2_A<-trophic_lit %>%
+P2_A_df<-trophic_lit %>%
   filter(trophic_study == "monotrophic") %>%
-  mutate(system_type = recode(system_type, 
+  mutate(system_type = recode_factor(system_type, 
                               AT = "MAT",
                               MAT = "MAT")) %>%
   group_by(pop_com_both,system_type) %>%
-  count() %>%
+  count() 
+
+P2_A <- P2_A_df %>%
   mutate(ypos = cumsum(n)- 0.5*n) %>%
-  ggplot(aes(x=system_type, y=n, fill=pop_com_both, group = pop_com_both)) +
+  ggplot(aes(x=as.character(system_type), y=n, fill=pop_com_both, group = pop_com_both)) +
   geom_bar(stat="identity", width=1, position = 'stack',color="white") +
   scale_fill_manual(values = c("#440154FF","#3B528BFF")) +
   geom_text(aes(x=system_type,label=n),
@@ -85,17 +87,18 @@ ggsave("./Figures/Figure_1/P2_A.pdf",
        width = 6,
        height = 4)
 
-
 # Figure 1B - Multitrophic organizational scale  
-P2_B<-trophic_lit %>%
+P2_B_df<-trophic_lit %>%
   filter(!trophic_study == "monotrophic") %>%
-  mutate(system_type = recode(system_type, 
+  mutate(system_type = recode_factor(system_type, 
                               AT = "MAT",
                               MAT = "MAT")) %>%
   group_by(pop_com_both,system_type) %>%
-  count() %>%
-  mutate(ypos = cumsum(n)- 0.5*n) %>%
-  ggplot(aes(x=system_type, y=n, fill=pop_com_both, group = pop_com_both)) +
+  count() 
+
+P2_B<-P2_B_df %>%
+  #mutate(ypos = cumsum(n)- 0.5*n) %>%
+  ggplot(aes(x=as.character(system_type), y=n, fill=pop_com_both, group = pop_com_both)) +
   geom_bar(stat="identity", width=1, position = 'stack',color="white") +
   scale_fill_viridis_d() +
   labs(y = "no. papers",
@@ -103,6 +106,7 @@ P2_B<-trophic_lit %>%
   geom_text(aes(x=system_type,label=n),
             position = position_stack(vjust = .5), color = "white") +
   theme_bw() +
+  #scale_fill_manual(values = c("#440154FF","#3B528BFF")) +
   theme(legend.position=c(0.4,0.85),
         legend.title = element_blank()) +
   removeGrid() +
@@ -142,7 +146,7 @@ trophic_lit_upd<-trophic_lit %>%
 # diversity bar
 
 mono_div_bar<-trophic_lit %>%
-  mutate(richness_stab = recode(richness_stab, # standardize labels
+  mutate(richness_stab = recode_factor(richness_stab, # standardize labels
                                 Yes_and_No = "Mixed",
                                 "Mixed_one season no" = "Mixed",
                                 Both = "Mixed",
@@ -180,7 +184,7 @@ ggsave("./Figures/Figure_1/mono_div_bar.pdf",
 
 
 multi_div_bar<-trophic_lit %>%
-  mutate(richness_stab = recode(richness_stab, # standardize labels
+  mutate(richness_stab = recode_factor(richness_stab, # standardize labels
                                 Yes_and_No = "Mixed",
                                 "Mixed_one season no" = "Mixed",
                                 Both = "Mixed",
@@ -224,7 +228,7 @@ multi_colors <-data.frame(levels = c("system stable","prey stablize","predators 
 mono_bar_vert<-trophic_lit_upd %>%
   filter(trophic_study == "monotrophic",
          !asynch_is_stab_at_com == "NA") %>%    
-  mutate(asynch_is_stab_at_com = recode(asynch_is_stab_at_com, 
+  mutate(asynch_is_stab_at_com = recode_factor(asynch_is_stab_at_com, 
                                         yes = "destabilize", # this has been modified to fit the results for visual abstract
                                         "yes and no_pred-prey" = "mixed",
                                         both = "destabilize",  # this has been modified to fit the results for visual abstract
@@ -277,7 +281,7 @@ multi_bar_vert_df<-trophic_lit %>%
   count() %>%
   ungroup() %>%
   mutate(Prop = n/sum(n)) %>%
-  mutate(pred_effect_red = factor(pred_effect_red, levels = c("system stable","prey stablize","predators stablize","system unstable","predators destablize","no effect","other")))
+  mutate(pred_effect_red = recode_factor(pred_effect_red, levels = c("system stable","prey stablize","predators stablize","system unstable","predators destablize","no effect","other")))
 
 multi_bar_vert<-multi_bar_vert_df %>% 
   mutate(pred_effect_red = reorder(pred_effect_red,-1* Prop)) %>%

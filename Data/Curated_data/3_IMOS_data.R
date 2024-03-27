@@ -33,7 +33,7 @@ IMOS_invert_mode<-read.csv("./Data/IMOS/IMOS_ivert_mode.csv")
 IMOS_invert_herbs <- IMOS_invert_mode %>% filter(keep == "Yes")
 
 unique(IMOS_invert$species_name)
-invert_filtering<-IMOS_invert %>% filter(site_code %in% sites_for_filter,
+invert_filtering<-IMOS_invert %>% filter(site_code %in% sites_for_filter$site,
                                          !phylum %in% c("Chordata", "Cnidaria","Platyhelminthes","Echiura"))
 
 
@@ -122,6 +122,7 @@ IMOS_fish_reduced_matched$mode = "fish_herbivore"
 
 length(unique(IMOS_fish_reduced_matched$site_code)) # 611 -- updated 606
 length(unique(IMOS_invert_reduced_matched$site_code)) # 600 
+length(unique(IMOS_benthic_reduced$site_code)) # 607
 
 
 # filter for fish that are herbivores
@@ -212,6 +213,7 @@ IMOS_algae_site_merge<-IMOS_algae_site %>%
   select(site_code,survey_date,year,month,day,species_name,total) %>%
   mutate(mode = "algae")
 
+IMOS_algae_list<-data.frame(unique(IMOS_algae_site$species_name))
 
 IMOS_near_complete_list<-list(IMOS_herbivores_site_merge,IMOS_invert_site_merge,IMOS_algae_site_merge)
 IMOS_near_complete <- do.call(rbind, IMOS_near_complete_list)
@@ -274,7 +276,12 @@ IMOS_data_ready_wide %>%
   ggplot() +
   geom_point(aes(x = year, y = site))
 
-IMOS_data_ready<-IMOS_data_nearly %>% filter(site %in% ts_test$site)
+IMOS_data_nearly_2.0<-IMOS_data_nearly %>% filter(site %in% sites_for_filter$site)
+
+dim(IMOS_data_nearly)
+dim(IMOS_data_nearly_2.0)
+
+IMOS_data_ready<-IMOS_data_nearly_2.0 %>% filter(site %in% ts_test$site)
 IMOS_data_ready$system <-"temperate"
 
 site_check<-IMOS_data_ready %>% filter(site == "MIR-S3", mode == "algae")
@@ -284,9 +291,6 @@ unique(site_check$species)
 # final check -- remove all "Unidentified xxx" taxa and remove where no species were present
 IMOS_data_ready<-IMOS_data_ready %>% filter(!str_detect(species,"Unidentified"),
                                             !str_detect(species,"No species found"))
-
-site_check<-IMOS_data_ready %>% filter(site == "MIR-S3", mode == "algae")
-sites_for_filter<-unique(IMOS_data_ready$site)
 
 
 # data ready 
@@ -298,14 +302,10 @@ length(unique(IMOS_data_ready$site))
 min(IMOS_data_ready$year)
 max(IMOS_data_ready$year)
 
-IMOS_data_ready %>%                    
-  group_by(site) %>%          
-  summarise(Unique_Elements = n_distinct(year)) %>%
-  summarise(mean_year = mean(Unique_Elements),
-            sd_year = sd(Unique_Elements))
 
 IMOS_data_ready %>%                    
   group_by(mode) %>%          
   summarise(Unique_Elements = n_distinct(species))
+
 
 # END #

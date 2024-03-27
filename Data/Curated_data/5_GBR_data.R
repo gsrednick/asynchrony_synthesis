@@ -59,7 +59,7 @@ ltmp_method_check<-ltmp_fish %>%
   group_by(REEF_NAME,SAMPLE_TYPE,REPORT_YEAR) %>%
   reframe() %>%
   group_by(REEF_NAME,REPORT_YEAR) %>%
-  dplyr::summarise(count = n()) # only an issue at HAYMAN ISLAND REEF in the first year -- not an issue
+  dplyr::summarise(count = n()) # only an issue at HAYMAN ISLAND REEF in the first year
 
 
 
@@ -92,7 +92,7 @@ LTMP_data_almostready$dataset = "GBR-LTMP"
 
 
 
-
+# Filter out first year at HAYMAN ISLAND REEF --> only 1 of 2 methods used
 LTMP_data_almostready_fishmethod_adj<-LTMP_data_almostready %>% filter(!(str_detect(site,"HAYMAN ISLAND REEF") & year == "1995"))
 dim(LTMP_data_almostready_test)
 dim(LTMP_data_almostready)

@@ -52,25 +52,35 @@ complete_data_ready_list<-list(pisco_data_ready,MCR_data_ready,IMOS_data_ready,U
 
 complete_data_ready <- do.call(rbind.data.frame, complete_data_ready_list)
 
+# DO NOT DELETE
+#complete_data_ready_OLD_DONTDEELTE<-complete_data_ready
+#write.csv(complete_data_ready_OLD_DONTDEELTE,"/Users/icarus3/Desktop/complete_data_DONTDEELTE.csv")
+
 # ignore warnings --- this is just a summary of sites
 site_table<-complete_data_ready %>% 
   group_by(site,dataset,system) %>% 
   summarize_all(mean) %>% 
   select(site,dataset,system)
 
-complete_data_ready %>%                    
+#OLD_site_check<-complete_data_ready %>%                    
+#  group_by(system,dataset) %>%          
+#  summarise(Unique_Elements = n_distinct(site))
+
+pre_analysis_site_check<-complete_data_ready %>%  #
   group_by(system,dataset) %>%          
   summarise(Unique_Elements = n_distinct(site))
 
-
-
+print(pre_analysis_site_check)
 
 # Compute Hierarchal measures ####
 
 # Loop function to compute:
-# Hierarchal diversity (richness and H')
-# Hierarchal synchrony (Loreau)
-# Hieracrhal stabiility (1/CV)
+# Hierarchical species diversity (richness and H') - averaged over time
+# Hierarchical species synchrony (Loreau)
+# Hierarchical temporal stability (1/CV)
+
+# Function computes this over time for each site; runs for (1) algae, (2) herbivores, and (3) combinations of them
+# Output is then curated to bring all estimates in line for each [site] repliate
 
 CR_sync_stab<-lapply(site_list,function(x){
   tryCatch({  
@@ -185,7 +195,6 @@ CR_sync_stab<-lapply(site_list,function(x){
           group_by(estimate_mode) %>%
           summarize(value = mean(value,na.rm =T))
         
-        
     
         # VR and Loreau -- VR just for testing 
         mode_VR <- cons_df %>% 
@@ -193,7 +202,6 @@ CR_sync_stab<-lapply(site_list,function(x){
           variance_ratio(.,
                          time = "year",
                          species.var = "species",
-                         #replicate.var = "site",
                          abundance.var = "cover",
                          bootnumber = boots) %>%
           mutate(value = VR,
@@ -205,7 +213,6 @@ CR_sync_stab<-lapply(site_list,function(x){
           synchrony(.,
                     time = "year",
                     species.var = "species",
-                    #replicate.var = "site",
                     abundance.var = "cover",
                     metric = "Loreau") %>%
           as.data.frame()
@@ -221,8 +228,6 @@ CR_sync_stab<-lapply(site_list,function(x){
         sync_stab_results[[mode]] <- product
       }, error = function(e) {sync_stab_results[[mode]] <- NA # put NA for metrics/sites that cant be calculated due to no species present
       })
-      
-      
     }
     
     # Combine the results into a single data frame
@@ -232,7 +237,7 @@ CR_sync_stab<-lapply(site_list,function(x){
       select(-mode) %>%
       pivot_wider(names_from = estimate_mode,values_from = value)   
     
-    
+    # Add replicate attributes
     wide_res$site = unique(x$site)
     wide_res$dataset = unique(x$dataset)
     wide_res$system = unique(x$system)
@@ -249,49 +254,55 @@ CR_sync_stab<-lapply(site_list,function(x){
 
 # combine these lists into a df
 CR_sync_stab_df<-do.call(bind_rows, CR_sync_stab)
-head(CR_sync_stab_df) # check
-length(unique(CR_sync_stab_df$site)) # check: perfect 497
+head(CR_sync_stab_df) # check for completeness
+length(unique(CR_sync_stab_df$site)) # check: 497
 
 
-# curate 
+# Curate into individual dataframes to be merged later
+
+# Temporal stability
 stability_df<-CR_sync_stab_df %>% 
-  #select(-total_CV) %>%
   select(contains("_stability"),dataset,system,site) %>%
   pivot_longer(cols = contains("stability"), 
                names_to = "mode_est", 
                values_to = "stability")
 
+# Species richness
 RCH_df<-CR_sync_stab_df %>% 
   select(contains("_RCH"),dataset,system,site) %>%
   pivot_longer(cols = contains("_RCH"), 
                names_to = "mode_est", 
                values_to = "RCH")
 
+# Variance ratio
 VR_df<-CR_sync_stab_df %>% 
   select(contains("VR"),dataset,system,site) %>%
   pivot_longer(cols = contains("VR"), 
                names_to = "mode_est", 
                values_to = "VR")
 
+# Diversity
 DIV_df<-CR_sync_stab_df %>% 
   select(contains("_DIV"),dataset,system,site) %>%
   pivot_longer(cols = contains("_DIV"), 
                names_to = "mode_est", 
                values_to = "DIV")
 
-
+# Time averaged diversity
 AnDIV_df<-CR_sync_stab_df %>% 
   select(contains("AnDIV"),dataset,system,site) %>%
   pivot_longer(cols = contains("AnDIV"), 
                names_to = "mode_est", 
                values_to = "AnDIV")
 
+# Time averaged richness
 AnRCH_df<-CR_sync_stab_df %>% 
   select(contains("AnRCH"),dataset,system,site) %>%
   pivot_longer(cols = contains("AnRCH"), 
                names_to = "mode_est", 
                values_to = "AnRCH")
 
+# Species synchrony
 loreau_df<-CR_sync_stab_df %>% 
   select(contains("_phi"),dataset,system,site) %>%
   pivot_longer(cols = contains("_phi"), 
@@ -349,15 +360,14 @@ metrics_df <- metrics_df %>%
 
 
 
-# more curation ###
+# more curation #
 
 multi_full_metrics<-metrics_df %>% filter(mode_est == "algae-invert_herbivore-fish_herbivore")
-
 algal_metrics<-metrics_df %>% filter(mode_est_code == "RR")
 consumer_metrics<-metrics_df %>% filter(mode_est == "invert_herbivore-fish_herbivore")
 
 
-# Rename levels for formating dataframe
+# Rename levels for formatting dataframe
 consumer_metrics_merge <- consumer_metrics %>%
   rename(
     consumer_rich = RCH,
@@ -392,11 +402,11 @@ names(multi_SEM_df)
 plot(multi_SEM_df$consumer_Andiv~multi_SEM_df$consumer_div) # aggregated is slightly skewed greater for herbivores
 plot(multi_SEM_df$algae_Andiv~multi_SEM_df$algae_div) # aggregated is slightly greater for algae
 
-# Plot to see if time aggregated diversity and richnes are similar
+# Plot to see if time aggregated diversity and richness are similar
 plot(multi_SEM_df$consumer_Andiv~multi_SEM_df$consumer_Anrich) # loose decay fit
 plot(multi_SEM_df$algae_Andiv~multi_SEM_df$algae_Anrich) # loose decay fit
 
-
+## Assumptions
 # Normality
 qqnorm(multi_SEM_df$consumer_Andiv)
 qqnorm(log(multi_SEM_df$consumer_Andiv + 1))
@@ -420,7 +430,7 @@ qqnorm(multi_SEM_df$consumer_Anrich)
 qqnorm(log(multi_SEM_df$consumer_Anrich + 1))
 
 # H. of variances
-# Looking at this....there is not homogeneity of variances for diversity between systems -- log transformation works
+# Violates homogeneity of variances for diversity between systems -- log transformation satisfies
 leveneTest(consumer_Andiv ~ dataset, data=multi_SEM_df)
 leveneTest(algae_Andiv ~ dataset, data=multi_SEM_df)
 
@@ -450,6 +460,16 @@ multi_SEM_df %>%
   dplyr::summarise() %>%
   group_by(system,dataset) %>%
   dplyr::summarize(count = n())
+
+
+# CHECK THIS!!!!!
+# system    dataset  count
+# <chr>     <chr>    <int>
+#   1 temperate IMOS       130
+# 2 temperate PISCO       93
+# 3 tropical  GBR-LTMP   138
+# 4 tropical  MCR         18
+# 5 tropical  TCRMP       33
 
 # Dataset temporal resolution
 multi_SEM_df_nonas<-na.omit(multi_SEM_df) # We renove NAs for formal analysis -- replication reflects this
@@ -486,7 +506,6 @@ species_summary<-complete_data_ready %>%
 
 
 
-
 ## Model structures ####
 
 # Fully saturated, "just-identified" model
@@ -510,14 +529,14 @@ trop_multi_SEM_df$algae_Andiv_scale<-scale(trop_multi_SEM_df$algae_Andiv)
 trop_multi_SEM_df$consumer_Andiv_scale<-trop_multi_SEM_df$consumer_Andiv_scale[,1]
 trop_multi_SEM_df$algae_Andiv_scale<-trop_multi_SEM_df$algae_Andiv_scale[,1]
 
-#leveneTest(consumer_Andiv_scale ~ dataset, data=trop_multi_SEM_df) # good, this works
-#leveneTest(algae_Andiv_scale ~ dataset, data=trop_multi_SEM_df) # good, this works
+#leveneTest(consumer_Andiv_scale ~ dataset, data=trop_multi_SEM_df) # good
+#leveneTest(algae_Andiv_scale ~ dataset, data=trop_multi_SEM_df) # good
 
 
 
 # Main model
 multi_model_trop<-sem(mult_SEM_model,
-                      data = trop_multi_SEM_df, # changed to use a dataframe with no NAs
+                      data = trop_multi_SEM_df, # changed to use a dataframe with no NAs, either df will produce same result
                       estimator = "ML")  
 
 summary(multi_model_trop)
@@ -530,8 +549,8 @@ modindices(multi_model_trop, standardized = FALSE, minimum.value = 5)
 
 equivTest(multi_model_trop) # is model a good fit?
 varTable(multi_model_trop)
-#modificationindices(multi_model_trop, minimum.value = 2) #only print MIs > 20 
-trop_model_perf<-as.data.frame(model_performance(multi_model_trop)) #%>% pivot_longer(names_to = "estimate", values_to = "value")
+#modificationindices(multi_model_trop, minimum.value = 2) 
+trop_model_perf<-as.data.frame(model_performance(multi_model_trop)) 
 plot_matrix(residuals(multi_model_trop, type="cor")$cov)
 
 
@@ -542,7 +561,7 @@ multi_model_trop_df_plot<-multi_model_trop_df %>% mutate(variables = row.names(.
 param_summary_all_trop<-standardizedSolution(multi_model_trop, type="std.all") # standardized
 SEM_trop_plotting<-param_summary_all_trop %>% filter(!rhs == lhs,
                                                      !lhs == rhs)
-SEM_trop_plotting<-na.omit(SEM_trop_plotting) # remove covariances that arent of interest
+SEM_trop_plotting<-na.omit(SEM_trop_plotting) # remove covariances that arent of interest for plotting
 SEM_trop_plotting$from = SEM_trop_plotting$rhs
 SEM_trop_plotting$to = SEM_trop_plotting$lhs
 
@@ -598,7 +617,7 @@ sem_path_tropical<-
   ggraph(hs_graph_trop,trop_coord) + 
   theme_bw() +
   removeGrid() +
-  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA),
                      alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5),
                      label = ifelse(!is.na(sig) & sig == "yes", round(est.std,2), NA)),
                  arrow = arrow(length = unit(3, 'mm'),angle = 20,
@@ -656,7 +675,7 @@ SEM_temper_rsq<-parameterEstimates(multi_model_temper,rsquare = TRUE) %>% filter
 SEM_temper_plotting<-param_summary_all_temper %>% filter(!rhs == lhs,
                                                          !lhs == rhs)
 
-SEM_temper_plotting<-na.omit(SEM_temper_plotting) # remove covariances that arent of interest
+SEM_temper_plotting<-na.omit(SEM_temper_plotting) # remove covariances that arent of interest for plotting
 
 
 SEM_temper_plotting$from = SEM_temper_plotting$rhs
@@ -703,10 +722,10 @@ sem_path_temperate<-
   ggraph(hs_graph_temper,temper_coord) + 
   theme_bw() +
   removeGrid() +
-  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), 
                      alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5),
                      label = ifelse(!is.na(sig) & sig == "yes", round(est.std,2), NA)),
-                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"), # Change type to "closed"
+                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"),
                  start_cap = circle(12, 'mm'),
                  end_cap = square(25, 'mm'),
                  width = 3,
@@ -753,37 +772,6 @@ ggsave("./Figures/SEM_plot_R2.pdf",
 # Linear mixed models ####
 
 
-# diversity across groups and datasets
-lmer_div<-lmer(diversity~group * system + (1|dataset), diversity_comp_df)
-
-summary(lmer_div)
-anova(lmer_div)
-ranova(lmer_div)
-performance(lmer_div)
-
-
-div_predict<-ggpredict(lmer_div, terms = c("group","system"))
-
-# synchrony across groups and datasets
-lmer_sync<-lmer(synchrony~group * system + (1|dataset), synchrony_comp_df)
-summary(lmer_sync)
-anova(lmer_sync)
-ranova(lmer_sync)
-performance(lmer_sync)
-
-
-sync_predict<-ggpredict(lmer_sync, terms = c("group","system"))
-
-# Stability across groups and datasets
-lmer_stab<-lmer(log(stability+1)~system + (1|dataset), multi_SEM_df_no)
-summary(lmer_stab)
-anova(lmer_stab)
-ranova(lmer_stab)
-performance(lmer_stab)
-
-stab_predict<-ggpredict(lmer_stab, terms = c("system"))
-
-
 
 ## Figure 3 - boxplots showing difference in measures between trophic groups and systems  ####
 
@@ -809,12 +797,49 @@ synchrony_comp_df<-multi_SEM_df %>%
                names_to = "group", 
                values_to = "synchrony") 
 
+stability_comp_df<-multi_SEM_df %>% 
+  na.omit() %>%
+  dplyr::select(site,dataset,system,stability,stability_log)
+
 
 diversity_comp_df$group <- gsub("_Andiv", "", diversity_comp_df$group)
 synchrony_comp_df$group <- gsub("_sync_log", "", synchrony_comp_df$group)
 
 
-# this also isnt appropriate due to the issues with the GBR dataset - algae constrained to 6 functional groups
+## Models ####
+
+# diversity across groups and datasets
+lmer_div<-lmer(diversity~group * system + (1|dataset), diversity_comp_df)
+
+summary(lmer_div)
+anova(lmer_div)
+ranova(lmer_div)
+performance(lmer_div)
+
+
+div_predict<-ggpredict(lmer_div, terms = c("group","system"))
+
+# synchrony across groups and datasets
+lmer_sync<-lmer(synchrony~group * system + (1|dataset), synchrony_comp_df)
+summary(lmer_sync)
+anova(lmer_sync)
+ranova(lmer_sync)
+performance(lmer_sync)
+
+
+sync_predict<-ggpredict(lmer_sync, terms = c("group","system"))
+
+# Stability across groups and datasets
+lmer_stab<-lmer(log(stability+1)~system + (1|dataset), stability_comp_df)
+summary(lmer_stab)
+anova(lmer_stab)
+ranova(lmer_stab)
+performance(lmer_stab)
+
+stab_predict<-ggpredict(lmer_stab, terms = c("system"))
+
+
+
 richness_plot<-ggplot(richness_comp_df,aes(x = group, y= log(richness+1), fill = system)) +
   geom_boxplot(alpha = 0.4) +
   #geom_point() +
@@ -849,7 +874,7 @@ synchrony_plot<-ggplot(synchrony_comp_df,aes(x = group, y= synchrony, fill = sys
   scale_x_discrete(labels = c("algae","herbivores"))+
   removeGrid()
 
-stability_plot<-ggplot(multi_SEM_df,aes(x = system, y= log(stability+1), fill = system)) +
+stability_plot<-ggplot(stability_comp_df,aes(x = system, y= log(stability+1), fill = system)) +
   geom_boxplot(alpha = 0.4) +
   #geom_point() +
   scale_fill_manual(values = c("purple","yellow3")) +
@@ -940,9 +965,6 @@ lmer_stab_merge<-lmer_stab_table %>% dplyr::select(variable,Stability)
 
 lmer_div_merge$id  <- 1:nrow(lmer_div_merge)
 lmer_sync_merge$id  <- 1:nrow(lmer_sync_merge)
-#lmer_stab_merge$id  <- 1:nrow(lmer_stab_merge)
-
-#stab_DIV_lmer_merge$id  <- 1:nrow(stab_DIV_lmer_merge)
 
 completed_table_list<-list(lmer_div_merge,lmer_sync_merge,lmer_stab_merge)
 completed_table<-Reduce(function(x, y) merge(x, y, all=TRUE), completed_table_list, accumulate=FALSE)
@@ -998,7 +1020,7 @@ multi_model_trop_df_rch_plot<-multi_model_trop_df_rch %>% mutate(variables = row
 param_summary_all_trop_rch<-standardizedSolution(multi_model_RCH_trop, type="std.all") # standardized
 SEM_trop_plotting_rch<-param_summary_all_trop_rch %>% filter(!rhs == lhs,
                                                              !lhs == rhs)
-SEM_trop_plotting_rch<-na.omit(SEM_trop_plotting_rch) # remove covariances that arent of interest
+SEM_trop_plotting_rch<-na.omit(SEM_trop_plotting_rch) # remove covariances that arent of interest for plotting
 SEM_trop_plotting_rch$from = SEM_trop_plotting_rch$rhs
 SEM_trop_plotting_rch$to = SEM_trop_plotting_rch$lhs
 
@@ -1119,7 +1141,7 @@ SEM_temper_rch_rsq<-parameterEstimates(multi_model_RCH_temper,rsquare = TRUE) %>
 
 SEM_temper_plotting_rch<-param_summary_all_temper_rch %>% filter(!rhs == lhs,
                                                                  !lhs == rhs)
-SEM_temper_plotting_rch<-na.omit(SEM_temper_plotting_rch) # remove covariances that arent of interest
+SEM_temper_plotting_rch<-na.omit(SEM_temper_plotting_rch) # remove covariances that arent of interest for plotting
 SEM_temper_plotting_rch$from = SEM_temper_plotting_rch$rhs
 SEM_temper_plotting_rch$to = SEM_temper_plotting_rch$lhs
 
@@ -1161,10 +1183,10 @@ sem_path_temperate_rch<-
   ggraph(hs_graph_temper_rch,rch_temper_coord) + 
   theme_bw() +
   removeGrid() +
-  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), 
                      alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5),
                      label = ifelse(!is.na(sig) & sig == "yes", round(est.std,2), NA)),
-                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"), # Change type to "closed"
+                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"),
                  start_cap = circle(12, 'mm'),
                  end_cap = square(25, 'mm'),
                  width = 3,
@@ -1287,7 +1309,7 @@ trophic_model_trop_rsq<-parameterEstimates(trophic_model_trop,rsquare = TRUE) %>
 
 SEM_trop_plotting_trophic<-param_summary_trophic_model_trop %>% filter(!rhs == lhs,
                                                                        !lhs == rhs)
-SEM_trop_plotting_trophic<-na.omit(SEM_trop_plotting_trophic) # remove covariances that arent of interest
+SEM_trop_plotting_trophic<-na.omit(SEM_trop_plotting_trophic) # remove covariances that arent of interest for plotting
 SEM_trop_plotting_trophic$from = SEM_trop_plotting_trophic$rhs
 SEM_trop_plotting_trophic$to = SEM_trop_plotting_trophic$lhs
 
@@ -1342,10 +1364,10 @@ sem_path_trop_troph<-
   ggraph(hs_graph_trop_trophic,troph_trop_coord) +
   theme_bw() +
   removeGrid() +
-  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), 
                      alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5),
                      label = ifelse(!is.na(sig) & sig == "yes", round(est.std,2), NA)),
-                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"), # Change type to "closed"
+                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"),
                  start_cap = circle(12, 'mm'),
                  end_cap = square(25, 'mm'),
                  width = 3,
@@ -1401,7 +1423,7 @@ trophic_model_temper_rsq<-parameterEstimates(trophic_model_temper,rsquare = TRUE
 
 SEM_temper_plotting_trophic<-param_summary_trophic_model_temper %>% filter(!rhs == lhs,
                                                                            !lhs == rhs)
-SEM_temper_plotting_trophic<-na.omit(SEM_temper_plotting_trophic) # remove covariances that arent of interest
+SEM_temper_plotting_trophic<-na.omit(SEM_temper_plotting_trophic) # remove covariances that arent of interest for plotting
 SEM_temper_plotting_trophic$from = SEM_temper_plotting_trophic$rhs
 SEM_temper_plotting_trophic$to = SEM_temper_plotting_trophic$lhs
 
@@ -1456,10 +1478,10 @@ sem_path_temperate_troph<-
   ggraph(hs_graph_temper_trophic,troph_temper_coord) + 
   theme_bw() +
   removeGrid() +
-  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA),
                      alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5),
                      label = ifelse(!is.na(sig) & sig == "yes", round(est.std,2), NA)),
-                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"), # Change type to "closed"
+                 arrow = arrow(length = unit(3, 'mm'), angle = 20, ends = "last", type = "open"),
                  start_cap = circle(12, 'mm'),
                  end_cap = square(25, 'mm'),
                  width = 3,
