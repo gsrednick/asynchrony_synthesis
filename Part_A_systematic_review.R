@@ -1,7 +1,7 @@
 # Code in support of "Understanding diversity-synchrony-stability relationships in multitrophic communities"
 # in Nature Ecology & Evolution 2024
 # Griffin Srednick and Stephen Swearer
-# DOI: XXX
+# DOI: 10.1038/s41559-024-02419-3
 
 
 # ====== Part A - Systematic Review ======
