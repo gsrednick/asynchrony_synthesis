@@ -2,7 +2,7 @@
 
 **Title: Understanding diversity-synchrony-stability relationships in multitrophic communities.**
 
-**Nature Ecology & Evolution 2024 - DOI: XXXX**
+**Nature Ecology & Evolution 2024 - DOI: [10.1038/s41559-024-02419-3](https://www.nature.com/articles/s41559-024-02419-3)**
 
 **Authors: Griffin Srednick & Stephen Swearer**
 
